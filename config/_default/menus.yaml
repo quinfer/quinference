@@ -5,7 +5,7 @@
 
 main:
   - name: Drivel
-    url: 'posts'
+    url: 'post'
     weight: 10
   - name: Publications
     url: 'publications'
