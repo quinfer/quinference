@@ -5,16 +5,16 @@
 
 main:
   - name: Drivel
-    url: '#posts'
+    url: 'posts'
     weight: 10
   - name: Publications
-    url: '#publication'
+    url: 'publications'
     weight: 20
   - name: Teaching
-    url: '#teaching'
+    url: 'teaching'
     weight: 30
   - name: QSMF
-    url: '#smf'
+    url: 'smf'
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
