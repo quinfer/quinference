@@ -7,9 +7,9 @@ main:
   - name: Drivel
     url: 'post'
     weight: 10
-  - name: Publications
-    url: 'publications'
-    weight: 20
+#  - name: Publications
+#    url: 'publications'
+#    weight: 20
   - name: Teaching
     url: 'teaching'
     weight: 30
