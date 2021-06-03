@@ -17,9 +17,9 @@ organizations:
 bio: "Barry"
 
 interests:
-- Computer age statistical inference
+- Statistical learning in finance
 - Responsible AI in Business
-- Banking and credit unions
+- Risk analyticis and financial regulation
 - Association Football
 
 education:
@@ -79,4 +79,4 @@ social:
 #- Visitors
 ---
 
-I am a passionate lecturer who encourages active learning using a growth mindset. My teaching philosophy fosters confident humility and cultivates curiosity. I run the masters in quantitative finance and teaches graduate-level statistics for time series and a course on financial machine learning entitled algorithmic trading and investment. Finally, I built and maintained a high-performance cloud computing resource for teaching in the Management School. These resources empower students to create digital solutions to complex business problems which are code-interoperable, agile, literate, credible, and reproducible. I research to feed my curiosity and build confident humility, advocating the responsible use of cutting edge statistics. My current research projects focus on computer age statistical inference, responsible AI, banking, and association football. I have extensive knowledge transfer experience, recently leading out on an AI and Machine Learning project on retail analytics (£165,000 from InnovateUK). 
+I am a passionate lecturer who encourages active learning using a growth mindset. My teaching philosophy fosters confident humility and cultivates curiosity. I run the masters in quantitative finance and teaches graduate-level statistics for time series and a course on financial machine learning entitled algorithmic trading and investment. Finally, I built and maintained a high-performance cloud computing resource for teaching in the Management School. These resources empower students to create digital solutions to complex business problems which are code-interoperable, agile, literate, credible, and reproducible. I research to feed my curiosity and build confident humility, advocating the responsible use of cutting edge statistics. My current research projects focus on statistical learning in finance, responsible AI, risk and financial regulation in banking, and association football. I have extensive knowledge transfer experience, recently leading out on an AI and Machine Learning project on retail analytics (£165,000 from InnovateUK). 
