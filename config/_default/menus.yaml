@@ -13,7 +13,7 @@ main:
   - name: Teaching
     url: 'teaching'
     weight: 30
-  - name: Clickbaitery?
+  - name: Quinferencings
     url: 'post'
     weight: 40
   - name: QSMF
