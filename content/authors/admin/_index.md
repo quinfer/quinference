@@ -17,7 +17,6 @@ organizations:
 bio: "Barry"
 
 interests:
-- Statistical learning in finance
 - Financial data science
 - Responsible AI in banking
 - Risk analytics and financial regulation
