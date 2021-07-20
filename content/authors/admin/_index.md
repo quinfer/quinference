@@ -21,7 +21,7 @@ interests:
 - Bayesian inference in finance
 - Responsible AI in banking
 - Risk analytics and financial regulation
-- Association Football
+- Association Football economics
 
 education:
   courses:
