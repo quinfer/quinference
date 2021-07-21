@@ -31,7 +31,7 @@ education:
   - course: PhD in Finance
     institution: Queen's University Belfast
     year: 2010
-  - course: MSc in Financial Econometrics
+  - course: MSc in Finance
     institution: Royal Melbourne Institute of Technology
     year: 2008
 
