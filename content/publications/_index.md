@@ -1,12 +1,11 @@
 # Key Publications
 
-|**Co-Authors**|**Title**||**Area(s)**|**Journal/Insititution**|**Date**|	
+|**Co-Authors**|**Title**|**Area(s)**|**Journal/Insititution**|**Date**|	
 |:---:|:---:|:---:|:---:|:---:|
 
 |
 * [Jiadong Liu](https://pure.qub.ac.uk/en/persons/jiadong-liu)
-* [Fotis Papailias](https://www.kcl.ac.uk/people/fotis-papailias)
-|*Direction-of-Change Forecasting in Commodity Futures Markets?*|Financial machine learning, empirical asset pricing, trading strategies|International Review of Financial Analysis|2021|
+* [Fotis Papailias](https://www.kcl.ac.uk/people/fotis-papailias)|*Direction-of-Change Forecasting in Commodity Futures Markets?*|Financial machine learning, empirical asset pricing, trading strategies|International Review of Financial Analysis|2021|
 
 |
 * [Donal McKillop](https://pure.qub.ac.uk/en/persons/donal-mckillop)
