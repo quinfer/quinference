@@ -1,9 +1,11 @@
 # Working papers 
 
-Kearney, Fearghal, Barry Quinn, and Robert Sketch. 2020. “How Deep Is Your Learning? Machine Learning Stories from the Enchanted Predictability Forest of UK Firm Value.”
+|**Co-Authors**|**Title**|**Area(s)**|**Series**|**Date**|
+|:---:|:---:|:---:|:---:|:---:|
+|Kearney, Fearghal, Barry Quinn, and Robert Sketch|*How Deep Is Your Learning? Machine Learning Stories from the Enchanted Predictability Forest of UK Firm Value*|Financial machine learning, nueral networks, XAI, shapley values| |2021| 
 
-Quinn, Barrry, Barbara Casu, Rym Ayadi, Sami Ben Naceur, and Ronan Gallagher. 2021. “Herding to Comply: Hierarchical Systemic Risk Consequences of Capital Policy Actions in Europe.” (Under Review at the IMF)
+|Barbara Casu, Rym Ayadi, Sami Ben Naceur, and Ronan Gallagher|*Herding to Comply: Hierarchical Systemic Risk Consequences of Capital Policy Actions in Europe.*|Systemic risk, capital regulation, Bayesian inference, CoVaR, hierarchical models|Under Review at IMF working paper series|2021|
 
-Quinn, Barry, Ronan Gallagher, and Timo Kuosmanen. 2021. “Lurking in the Shadows: The Impact of Emissions Target Setting on Carbon Pricing and Environmental Efficiency.” QMS Working Paper Series
+|Ronan Gallagher, and Timo Kuosmanen|*Lurking in the Shadows: The Impact of Emissions Target Setting on Carbon Pricing and Environmental Efficiency.*|StoNED, climate policy, energy economics, frontier efficiency| QMS Working Paper Series|2021|
 
-Quinn, Barry 2021 "Tools and Infrastructure to Teaching Financial Machine Learning."
+|Single authored|*Tools and Infrastructure to Teaching Financial Machine Learning.*|Finance education, case study, cloud computing, financial machine learning| |2021|
