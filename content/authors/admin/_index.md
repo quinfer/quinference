@@ -17,7 +17,7 @@ organizations:
 bio: "Barry"
 
 interests:
-- Econometrics and machine learning
+- Econometrics, AI, and machine learning
 - Bayesian inference in finance
 - Responsible AI in banking
 - Risk analytics and financial regulation
