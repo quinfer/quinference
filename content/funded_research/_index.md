@@ -19,3 +19,4 @@
 |:---:|:---:|:---:|:---:|
 
 |*Credit Easing Programs and ETF activity*|ETF flows, quantitative easing, systemic risk|Lisa Sheenan(QUB), Lisha Li(Southwestern University of Economics and Finance)|2 4* ABS papers|
+|*Predicting Managerial Turnover in Association Football*|machine learning, football economics, labour economics|Ronan Gallagher (Edinburgh Business School)|1 3* ABS papers|
