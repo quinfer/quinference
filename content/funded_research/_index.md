@@ -17,7 +17,7 @@
 
 |**Title**|**Areas**|**Co-investigator**|**Predicted output**|	
 |:---:|:---:|:---:|:---:|
-|*Credit Easing Programs and ETF activity*|ETF flows, quantitative easing, systemic risk|Lisa Sheenan(Queen's University Belfast), Lisha Li(Southwestern University of Economics and Finance)|2 4* ABS papers|
+|*Credit Easing Programs and ETF activity*|ETF flows, quantitative easing, systemic risk|Lisa Sheenan(Queen's University Belfast), Lisha Li(Southwestern University of Economics and Finance)|2 x 4* ABS papers|
 |*Predicting Managerial Turnover in Association Football*|machine learning, football economics, labour economics|Ronan Gallagher (Edinburgh Business School)|1 x 3* ABS papers|
 |*Implications of Basel III for chinese banking*|banking, financial regulation|Lisa Sheenan(Queen's University Belfast), Veronica Zhang (PhD Candidate, Queen's University Belfast)|3 x 3-4* ABS papers|
-|*Financial machine learning and UK asset pricing*|XAI,financial machine learning|Gareth Campbell (Queen's University Belfast), Ronan Gallagher (Edinburgh Business School), Colm Kelly (PhD Candidate, Queen's University Belfast)|3 3-4* ABS papers|
+|*Financial machine learning and UK asset pricing*|XAI,financial machine learning|Gareth Campbell (Queen's University Belfast), Ronan Gallagher (Edinburgh Business School), Colm Kelly (PhD Candidate, Queen's University Belfast)|3 x 3-4* ABS papers|
