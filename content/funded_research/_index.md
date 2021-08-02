@@ -1,6 +1,4 @@
-# Research Activity and Knowledge Transfer
-
-
+## Research Activity and Knowledge Transfer
 
 |**Title**|**Area**|**Funding Body**|**Funding Amount**|**Date Funding Received**|**Duration**|	
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -12,4 +10,12 @@
 |*AI and Advanced Retail Analytics*|machinel learning, retail economics, AI|Pearlai Ltd, Innovate UK|£165,000|08/2018|3 years|
 |*AI and Web Analytics for Price Comparison*|Web scrapping, computer vision, machine learning, Natural language processing|Invest NI|£5000|05/2019|3 months|
 |*Value at Risk modelling using financial machine learning*|Financial econometrics, financial data science,Value at Risk, capital market regulation|FundAxis Ltd, Invest NI|£5000|06/2021|3 months|
-|*Financail Tail Risk Analytics, AI and financial machine learning*|Financial econometrics, financial data science,Value at Risk, capital market regulation|FundAxis Ltd, Innovate UK|£172,000|Decision due 01/2021|3 years| 
+|*Financial Tail Risk Analytics, AI and financial machine learning*|Financial econometrics, financial data science,Value at Risk, capital market regulation|FundAxis Ltd, Innovate UK|£172,000|Decision due 01/2021|3 years|
+
+
+## Ongoing research projects
+
+|**Title**|**Area**|**Co-investigator**|**Predicted output**|	
+|:---:|:---:|:---:|:---:|
+
+|*Credit Easing Programs and ETF activity*|ETF flows, quantitative easing, systemic risk|Lisa Sheenan(QUB), Lisha Li(Southwestern University of Economics and Finance)|2 4* ABS papers|
