@@ -11,12 +11,13 @@
 |*AI and Web Analytics for Price Comparison*|Web scrapping, computer vision, machine learning, Natural language processing|Invest NI|£5000|05/2019|3 months|
 |*Value at Risk modelling using financial machine learning*|Financial econometrics, financial data science,Value at Risk, capital market regulation|FundAxis Ltd, Invest NI|£5000|06/2021|3 months|
 |*Financial Tail Risk Analytics, AI and financial machine learning*|Financial econometrics, financial data science,Value at Risk, capital market regulation|FundAxis Ltd, Innovate UK|£172,000|Decision due 01/2021|3 years|
-
+|*How AI innovation affect a highly valued financial service provision experience*|financial technology, AI, machine learning, financial services, credit unions|DofE Co-operative Award in Science and Technology PhD studentship|£120,000|09/2021|4 years|
 
 ## Ongoing research projects
 
-|**Title**|**Area**|**Co-investigator**|**Predicted output**|	
+|**Title**|**Areas**|**Co-investigator**|**Predicted output**|	
 |:---:|:---:|:---:|:---:|
-
-|*Credit Easing Programs and ETF activity*|ETF flows, quantitative easing, systemic risk|Lisa Sheenan(QUB), Lisha Li(Southwestern University of Economics and Finance)|2 4* ABS papers|
-|*Predicting Managerial Turnover in Association Football*|machine learning, football economics, labour economics|Ronan Gallagher (Edinburgh Business School)|1 3* ABS papers|
+|*Credit Easing Programs and ETF activity*|ETF flows, quantitative easing, systemic risk|Lisa Sheenan(Queen's University Belfast), Lisha Li(Southwestern University of Economics and Finance)|2 4* ABS papers|
+|*Predicting Managerial Turnover in Association Football*|machine learning, football economics, labour economics|Ronan Gallagher (Edinburgh Business School)|1 x 3* ABS papers|
+|*Implications of Basel III for chinese banking*|banking, financial regulation|Lisa Sheenan(Queen's University Belfast), Veronica Zhang (PhD Candidate, Queen's University Belfast)|3 x 3-4* ABS papers|
+|*Financial machine learning and UK asset pricing*|XAI,financial machine learning|Gareth Campbell (Queen's University Belfast), Ronan Gallagher (Edinburgh Business School), Colm Kelly (PhD Candidate, Queen's University Belfast)|3 3-4* ABS papers|
