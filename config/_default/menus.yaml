@@ -11,7 +11,7 @@ main:
     url: 'publications'
     weight: 20
   - name: Research Activity
-    url: 'funded_research'
+    url: 'research'
     weight: 25
   - name: Teaching
     url: 'teaching'
