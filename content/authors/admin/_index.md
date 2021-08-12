@@ -19,7 +19,7 @@ bio: "Barry"
 interests:
 - Econometrics, AI, and machine learning
 - Bayesian inference in finance
-- Responsible AI in banking
+- Trustworthy AI in finance
 - Risk analytics and financial regulation
 - Association football economics
 
