@@ -11,11 +11,11 @@ author:
     affiliation_url: https://qub.ac.uk/mgt
 date: "`r Sys.Date()`"
 bibliography: biblio.bib
-output: distill::distill_article
+output: md_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = FALSE,warning = FALSE,message = FALSE)
 ```
 # Introduction
 
@@ -40,7 +40,7 @@ Machine learning is a  branch of nonparametric statistics mixing statistical lea
 2. An optimisation criteria
 3. An optimisation routine    
 
-Changes in each of these building blocks produce a wide variety of learning algorithms characterising the freedom they have to learn patterns in the data^[Boardly speaking, machine learning algorithms are categorised into unsupervised learning and supervised learning.  A classic example of the form is clustering, and the latter is a regression tree. Reinforcement learning, a popular technique for financial data, is in between these two extremes of unsupervised learning (no feedback at all) and supervised learning that can be viewed as feedback by providing the correct labels.  Instead, partial feedback (in the form of *rewards*) encourages the desired behaviour without instructing the algorithm precisely what to do as supervised learning [@Dixon2021].]. Econometrically, these models possess bias due to their optimisation of a restricted objective according to a specific algorithmic methodology and statistical rationale.
+Changes in each of these building blocks produce a wide variety of learning algorithms characterising the freedom they have to learn patterns in the data^[Boardly speaking, machine learning algorithms are categorised into unsupervised learning and supervised learning.  A classic example of the form is clustering, and the latter is a regression tree. Reinforcement learning, a popular technique for financial data, is in between these two extremes of unsupervised learning (no feedback at all) and supervised learning that can be viewed as feedback by providing the correct labels.  Instead, partial feedback (in the form of *rewards*) encourages the desired behaviour without instructing the algorithm precisely what to do as supervised learning [@Dixon2020].]. Econometrically, these models possess bias due to their optimisation of a restricted objective according to a specific algorithmic methodology and statistical rationale.
 On the other hand, econometrics applies statistics to a data sample, usually in the form of regression analysis, to examine relationships. The model design uses well-journeyed economic theory to develop an *unobservable* hypothesised model. The asymptotic theory is then relied upon to produce objective statistical inference, which minimises bias, possibly at the expense of increased sampling variation.
 
 Financial machine learning attempts to resolve three broad conflicts between machine learning and econometrics[@Lommers2021]:
@@ -95,11 +95,9 @@ Classical econometrics requires a model that incorporates our knowledge of the e
 
 For centuries, finance and computation have gone hand in hand, with quantitative finance taking its roots from Bachelier's *Theory of Speculation* [@Bachelier1900]. Computing as a utility can be traced back to Professor John McCarthy in the early 1960s.  As computing power has become more accessible and affordable, computation has become a central part of finance.  Figure 1 illustrates some of the critical moments in the development of computing in finance and the cloud.
 
-```{r timeline, fig.cap=" Computing landmarks finance and cloud computing.   The data for the cloud computing timeline is sourced from Varghese et al. (2019), while the finance timeline is the authors' calculations"}
+```{r timeline,fig.cap=" Computing landmarks finance and cloud computing.   The data for the cloud computing timeline is sourced from Varghese et al. (2019), while the finance timeline is the authors' calculations"}
 library(vistime)
-library(ggrepel)
-library(ggdark)
-library(stringr)
+library(highcharter)
 
 c("Harry Markowitz <br> introduces <br> Critical Line Algorithm",
   "NASDAQ launched <br> as first electronic <br> communications market",
@@ -141,7 +139,7 @@ start   = paste0(c("1952","1971","1972","1973","1982","1983","1988","1993","2000
 for (i in seq_along(start)) {
   dy=sample(1:25,1)
   mth=sample(1:12,1)
-  newStart=paste0(start[i],”-”,mth,”-”,dy)
+  newStart=paste0(start[i],"-",mth,"-",dy)
   start[i]=newStart
 }
                    
@@ -150,14 +148,15 @@ i<-length(financeMs)
 j=length(cloudMs)
 
 timeline_data<-data.frame(
-  event =str_wrap(content,width=5),
+  # event = str_wrap(content,width=5),
+    event = content,
   start=start,
   end=start,
   group=c(rep("Finance",i),rep("Cloud <br> computing",j)),
-  fontcolor=c(rep("",i),rep("blue",j)))
+  fontcolor=c(rep("red",i),rep("blue",j)))
 
-p<-hc_vistime(timeline_data,col.color = "fontcolor",)
-library(highcharter)
+p<-hc_vistime(timeline_data,col.color = "fontcolor")
+# p<-gg_vistime(timeline_data,col.color = "fontcolor") + geom_jitter()
 
 thm <- hc_theme(
   colors = c("red", "green", "blue"),
@@ -283,7 +282,9 @@ There are two main formats for producing computational notebooks; Jupyter notebo
 
 Out of the box, the Jupyter ecosystem supports python scripting using the IPython kernel but can support up to 100 different languages (called 'kernels') by installing additional kernels^[https://jupyter4edu.github.io/jupyter-edu-book/jupyter.html]. Jupyter notebooks are a lightweight, low learning curve approach to teaching computing and are an excellent way to get non-technical students up and running in the first 10 minutes of a course. R Markdown is probably one of the most powerful tools in the RStudio IDE. R Markdown files are plain text documents that combine text, code and YAML metadata into an authoring framework for financial analytics. In the RStudio IDE, you can open an. Rmd file and working interactively, or render the file to build a static report or a dynamic web app using the `Shiny` packages.  For instance, when you render an R Markdown document, it will combine the text with output from your code.  The rendering process produces static formats such as HTML, pdf and word, but it can also produce interactive dashboards, web apps, slide shows, websites and more technical documentation (See video below). We mainly use Python and R code chunks in our teaching, the former output in the RStudio environment using the `reticulate` package.
 
-<iframe src="https://player.vimeo.com/video/178485416?h=8a57bf9b88&color=428bca" width="640" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<aside>
+<iframe src="https://player.vimeo.com/video/178485416?h=8a57bf9b88&color=428bca" width="100" height="80" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</aside>
 
 Pedagogically, the main benefit of R Markdown and Jupyter notebooks is to embed the logical connection between computing and financial data analysis. This approach is sometimes referred to as *literate programming* [@Knuth1984]^[Donald Knuth is pioneering in the computing world and create the vastly popular TeX typesetting markup language], which made code, output and narrative inseparable.  Computational notebooks have four advantages over the copy-and-paste approach: 
 
