@@ -6,7 +6,7 @@ slug: []
 categories: []
 tags: []
 subtitle: "How can financial technology AI innovations, enhance customer experience and trust while improving operational performance"
-summary: 'This is a collaborative project exploring how AI and machine learning impacts the credit unions.  The project is fully-funded by a Northern Ireland DfE CAST studentship, worth approximately £28,000 per annum gross.'
+summary: 'This is a collaborative project exploring how AI and machine learning impact financial services customers.  The project is fully-funded by a Northern Ireland DfE CAST studentship, worth approximately £28,000 per annum gross.'
 authors: []
 lastmod: '2021-02-26T14:33:28Z'
 featured: no
