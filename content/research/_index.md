@@ -16,7 +16,7 @@
 
 |**Title**|**Areas**|**Co-investigator**|**Predicted output**|	
 |:---:|:---:|:---:|:---:|
-|*Credit Easing Programs and ETF trading*| Exchange traded funds,financial machine learning, quantitative easing, markovian switching vector autoregressive models, Bayesian inference|Lisa Sheenan(Queen's University Belfast), Lisha Li(Southwestern University of Economics and Finance)|2 4* ABS papers|
+|*Credit Easing Programs and ETF trading*| Exchange traded funds, transfer entropy, financial machine learning, quantitative easing, markovian switching vector autoregressive models, Bayesian inference|Lisa Sheenan(Queen's University Belfast), Lisha Li(Southwestern University of Economics and Finance)|2 4* ABS papers|
 |*Predicting Managerial Turnover in Association Football*|AI, casual inference and machine learning, sports economics, labour economics|Ronan Gallagher (Edinburgh Business School)|1 x 3* ABS papers|
 |*Implications of Basel III for chinese banking*|banking, financial regulation|Lisa Sheenan(Queen's University Belfast), Veronica Zhang (PhD Candidate, Queen's University Belfast)|3 x 3-4* ABS papers|
 |*Financial machine learning and UK asset pricing*| Explainable AI(XAI),econometrics and machine learning|Gareth Campbell (Queen's University Belfast), Ronan Gallagher (Edinburgh Business School), Colm Kelly (PhD Candidate, Queen's University Belfast)|3 x 3-4* ABS papers|
