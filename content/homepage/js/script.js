@@ -41,8 +41,8 @@ var settings = {
 	
 	"search": {
 		"engines": [
-			["http://scholar.google.co.uk/", "q", "Google Scholar", "si"],
-			["http://wikipedia.org/w/index.php", "w", "Wikipedia", "sw"],
+			["https://scholar.google.com/", "q", "Google Scholar", "si"],
+			["https://wikipedia.org/w/index.php", "w", "Wikipedia", "sw"],
 		],
 		"focusSearch": false
 	},
