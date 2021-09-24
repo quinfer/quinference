@@ -38,18 +38,10 @@ The position is fully funded by a [CAST studentship](https://www.nidirect.gov.uk
 
 The value of a DfE studentship for UK domiciled students the value of an award includes the cost of approved fees as well as maintenance support. In academic year 2020-2021 the basic rate of maintenance support for a Research Studentship is £15,285 (tax-free) while the basic rate of maintenance support for a Taught Studentship is  £7,643. For non-domiciled UK candidate please read the eligibility criteria for  DfE studentships [here](https://www.nidirect.gov.uk/articles/department-economy-studentships).
 
-Apply online at: https://dap.qub.ac.uk/portal/user/u_login.php and enter the text QMS2021FIN/AIML into the funding field.  The application deadline is October 31st 2021, with shortlisted candidates being asked to interview shortly after this date.  The successful candidate would ideally be able to start immediately, but no later than 1st October 2021.
+Apply online at: https://dap.qub.ac.uk/portal/user/u_login.php and enter the text QMS2021FIN/AIML into the funding field.  The application deadline is October 15th 2021, with shortlisted candidates being asked to interview shortly after this date.  The successful candidate would ideally be able to start immediately, but no later than 30th October 2021.
 
 ### Candidate criteria
-1.	Hold at least a 2.1 honours degree (or equivalent) in Finance, Computer Science, Mathematics, or a related subject.
-2.	Hold, or be about to obtain, a higher degree (Masters) in a relevant discipline.
-3.	Candidates who can demonstrate at least 1 years highly relevant work experience. will also be considered.
-o	relevant work experience might include work in one of the following areas:
-a.	advanced statistical analysis
-b.	machine learning and AI
-c.	predictive analytics
-d.	natural language processing
-e.	advanced data visualisation
-4.	Proficiency in one or more program languages, such as R or Python or equivalent.
-5.	The ability to work independently and collaboratively at the frontier of research knowledge with a growth mindset.
-
+1. 2.1 Honours degree or equivalent qualification (or equivalent) in Finance, Computer Science, Mathematics, or a related subject.  A Master's degree (or equivalent professional qualification acceptable to the University) will normally be required. Extensive professional experience may be considered in lieu of a Master's degree on a case-by-case basis.
+2. Relevant work experience might include work in one of the following areas: a. advanced statistical analysis b. machine learning and AI c. predictive analytics d. natural language processing e. advanced data visualisation
+3. Proficiency in one or more program languages, such as R or Python or equivalent.
+4. The ability to work independently and collaboratively at the frontier of research knowledge with a growth mindset.
