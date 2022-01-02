@@ -2,7 +2,7 @@
 
 |**Co-Authors**|**Title**|**Areas**|**Journal**|**Date**|	
 |:---:|:---:|:---:|:---:|:---:|
-|[Fearghal Kearney](https://pure.qub.ac.uk/en/persons/fearghal-kearney)|*Developing a Value-at-Risk Analytics Platform: Theoretical foundations*|Financial machine learning, empirical asset pricing, risk management, bibliometric analysis|Innovation Voucher Report|2021|
+|[Fearghal Kearney](https://pure.qub.ac.uk/en/persons/fearghal-kearney)|*Developing a Value-at-Risk Analytics Platform: Theoretical Foundations*|Financial machine learning, empirical asset pricing, risk management, bibliometric analysis|Innovation Voucher Report|2021|
 |[Jiadong Liu](https://pure.qub.ac.uk/en/persons/jiadong-liu), [Fotis Papailias](https://www.kcl.ac.uk/people/fotis-papailias)|*Direction-of-Change Forecasting in Commodity Futures Markets?*|Financial machine learning, empirical asset pricing, trading strategies|International Review of Financial Analysis|2021|
 |[Donal McKillop](https://pure.qub.ac.uk/en/persons/donal-mckillop), [Declan French](https://pure.qub.ac.uk/en/persons/declan-french), [Anna L. Sobiech](https://risweb.st-andrews.ac.uk/portal/en/persons/anna-lucia-sobiech),[John Wilson](https://www.st-andrews.ac.uk/management/people/jsw7)|*Cooperative Financial Institutions: A Review of the Literature.*|Banking, cooperatives, survey| International Review of Financial Analysis|2020|
 |[Ronan Gallagher](https://www.business-school.ed.ac.uk/staff/ronan-gallagher)|[*Regulatory Own Goals:The Unintended Consequences of Economic Regulation in Professional Football.*](https://doi.org/10.1080/16184742.2019.1588344)|Sports economics, stochastic nonparametric statistics|European Sport Management Quarterly|2020|
