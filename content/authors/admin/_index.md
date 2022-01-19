@@ -17,6 +17,7 @@ organizations:
 bio: "Barry"
 
 interests:
+- Open science analytics
 - Econometrics, AI, and machine learning
 - Bayesian inference in finance
 - Trustworthy AI in finance
@@ -80,4 +81,4 @@ social:
 #- Visitors
 ---
 
-I am a passionate applied statistician who encourages active learning using a growth mindset. I teach students using experiental learning to encourage experimentation. My goal is to develop students' employability, resilence, confident humility and empirical curiosity. I run the masters in quantitative finance and teaches graduate-level statistics for time series and a course on financial machine learning entitled algorithmic trading and investment. Finally, I built and maintained a financial technology platform called **Q-RaP**, a high-performance cloud computing stack for teaching econometrics, AI and machine learning in the Management School. These resources empower students to create digital solutions to complex business problems which are code-interoperable, credible, and reproducible. I research to feed my curiosity and build confident humility, advocating the responsible use of cutting edge statistics. My current research projects focus on statistical learning in finance, responsible AI, risk and financial regulation in banking, and association football. I have extensive knowledge transfer experience, recently leading out on an AI and Machine Learning project on retail analytics (£165,000 from InnovateUK). 
+I am a passionate applied statistician who encourages active learning using a growth mindset. I teach students using experiental learning to encourage experimentation. My goal is to develop students' employability, resilence, confident humility and empirical curiosity. I run the masters in quantitative finance and teaches graduate-level statistics for time series and a course on financial machine learning entitled algorithmic trading and investment. Finally, I built and maintained a financial technology platform called **Q-RaP**, a high-performance cloud computing stack for teaching open science analytics, econometrics, AI and machine learning in the Management School. These resources empower students to create digital solutions to complex business problems which are code-interoperable, credible, and reproducible. I research to feed my curiosity and build confident humility, advocating the responsible use of cutting edge statistics. My current research projects focus on statistical learning in finance, responsible AI, risk and financial regulation in banking, and association football. I have colloborate extensively with industry detailed on my [activities](https://www.quinference.com/research/) page. 
