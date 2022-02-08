@@ -6,7 +6,7 @@ title: Barry Quinn
 superuser: true
 
 # Role/position
-role: Applied statistician in finance
+role: Lecturer in Financial Technology and Data Science
 
 # Organizations/Affiliations
 organizations:
