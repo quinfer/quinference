@@ -27,7 +27,7 @@ The goal of Q-RaP is to embed computation as a central tenet in the ciricula, al
 
 For example, our student managed fund uses the platform to teaching and promote investment management: 
 
-<iframe height="400" width="100%" frameborder="no" src="https://q-rap.qub.ac.uk/rsconnect/qsmf/"> </iframe>
+<iframe height="400" width="100%" frameborder="no" src="https://q-rap.connect.qub.ac.uk/QSMF/"> </iframe>
 
 
 
