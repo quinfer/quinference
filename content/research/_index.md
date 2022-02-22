@@ -2,7 +2,7 @@
 
 |**Title**|**Areas**|**Funding Body**|**Funding Amount**|**Date Funding Received**|**Duration**|	
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|*Anomaly detection of large heterogeneous trading transaction and commmunication data*|Unsupervised and supervised machine learning, Natural language processing, Financial econometrics, financial data science, econometric,AI, machine learning|Global capital markets firm| Consulting |2021|3 years project|
+|*Anomaly detection of large heterogeneous trading transaction and commmunication data*|Unsupervised and supervised machine learning, Natural language processing, Financial econometrics, financial data science, econometric,AI, machine learning|Global capital markets firm| £945,000 |2021 |3 years project|
 |*Financial Tail Risk Analytics, AI and financial machine learning*|Financial econometrics, financial data science, econometric,AI, machine learning,Value at Risk, capital market regulation|FundAxis Ltd, Innovate UK|£173,000| 2022|3 years|
 |*AI and Advanced Retail Analytics*|AI and machinel learning, retail economics|Pearlai Ltd, Innovate UK|£165,000|08/2018|3 years|
 |*How AI innovation affect a highly valued financial service provision experience*|financial technology, AI and machine learning, financial services|NI Department of the Economy Co-operative Award in Science and Technology PhD studentship|£70,000|09/2021|3 years|
