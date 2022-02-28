@@ -2,6 +2,7 @@
 
 |**Title**|**Areas**|**Funding Body**|**Funding Amount**|**Date Funding Received**|**Duration**|	
 |:---:|:---:|:---:|:---:|:---:|:---:|
+|*E.S.G fair value analytics platform: using state-of-the-art financial data science and business analytics to an fair-value ESG prediction engine*|Financial machine learning, bayesian inference, Natural language processing, econometrics, computational statistics|Research Associates, Innovate UK|
 |*Anomaly detection of large heterogeneous trading transaction and commmunication data*|Unsupervised and supervised machine learning, Natural language processing, Financial econometrics, financial data science, econometric,AI, machine learning|Global capital markets firm| £945,000 |2021 |3 years project|
 |*Financial Tail Risk Analytics, AI and financial machine learning*|Financial econometrics, financial data science, econometric,AI, machine learning,Value at Risk, capital market regulation|FundAxis Ltd, Innovate UK|£173,000| 2022|3 years|
 |*AI and Advanced Retail Analytics*|AI and machinel learning, retail economics|Pearlai Ltd, Innovate UK|£165,000|08/2018|3 years|
@@ -19,7 +20,7 @@
 | **Title**| **Areas**| **Co-investigators**| **Potential output**|                                             
 | --- | --- | --- | -- |
 | *Credit Easing Programs and ETF activity*                    | Exchange-traded funds, financial machine learning, quantitative easing, markovian switching vector autoregressive models, Bayesian inference | Lisa Sheenan(Queen's University Belfast), Lisha Li(Southwestern University of Economics and Finance) | 2 4* ABS papers                                              |
-| *Predicting Managerial Turnover in Association Football*     | AI, causal inference and machine learning, sports economics, labour economics | Ronan Gallagher (Edinburgh Business School)                  | 1 x 3* ABS papers                                            |
+| *Market Expectations and Mangerial Turnover: Evidence from a Frequent Feedback Market*     | AI, causal inference and machine learning, sports economics, labour economics | Ronan Gallagher (Edinburgh Business School)                  | 1 x 3* ABS papers                                            |
 | *Implications of Basel III for Chinese banking*              | banking, financial regulation                                | Lisa Sheenan, Veronica Zhang (PhD Candidate, Queen's University Belfast) | 3 x 3-4* ABS papers                                          |
 | *Financial machine learning and UK asset pricing*            | Explainable AI(XAI), econometrics and machine learning       | Gareth Campbell, Ronan Gallagher, Colm Kelly (PhD Candidate, Queen's University Belfast) | 3 x 3-4* ABS papers                                          |
 | *Bayesian inference in systemic risk and regulatory compliance* | Bayesian tail risk probability modelling, capital regulation, European banking. | Barbara Casu (Bayes Business School (formerly Cass)), Rym Ayadi Bayes Business School (formerly Cass), Sami Ben Naceur (IMF), and Ronan Gallagher | 1 x 4* ABS paper (*Journal of Business and Economics statistics*) 1 x IMF publication |
