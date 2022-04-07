@@ -1,5 +1,5 @@
 ---
-title: "**Q-RaP**"
+title: "Q-RaP"
 author: Barry Quinn
 date: '2022-01-27'
 slug: q-rap
@@ -8,7 +8,7 @@ tags: []
 subtitle: '*Q*ueens Management School *R*emote analytics *P*latform'
 summary: ''
 authors: []
-lastmod: '2022-01-27T19:23:35Z'
+lastmod: "`r Sys.Date()`"
 featured: no
 image:
   caption: ''
@@ -32,12 +32,18 @@ Running [enterprise-level RStudio software](https://www.rstudio.com/products/tea
 
 >The platform is split into two components based on user sophistication
 
-|**Usage**|**Explanation**|**Set up**|
-|---|---|---|
-|Foundational| Used to teach 200+ students concurrently on PGT modules|[RStudio Cloud Q-RaP](https://sso.rstudio.cloud/q-rap) using single-sign-in with QUB credentials|
-|Advanced| Using for PhD training, and advance data visualisation|High-Performance Cloud Computing Suite hosted in Azure and managed by [QMS DevOps Team](https://quinference.com). Access upon request with this [form]()|
+|**Level**|**Explanation**|**Set up**|**Teaching**|
+|---|---|---|----|
+|Foundational| Used to teach 200+ students concurrently on PGT modules|[RStudio Cloud Q-RaP](https://sso.rstudio.cloud/q-rap) using single-sign-in with QUB credentials|Machine learning and advanced analytics (*MSc Business Analytics*), Derivatives and Time series financial econometrics (*MSc Finance, MSc Risk, MSc Quant Finance*), Algorithmic trading and investment (*MSc Quant Finance*)|
+|Advanced| Using for PhD training, and advance data visualisation|High-Performance Cloud Computing Suite hosted in Azure and managed by [QMS DevOps Team](https://quinference.com). Access upon request with this [form]()| Statistical inference in the digital age(PhD training)|
 
-The goal of Q-RaP is to embed computation as a central tenet in the ciricula, allowing students to do something interesting with data in the first 10 minutes of the first class.
+## Advanced component infrastructure
+
+The advance computing infrastructure using the complete suite of RStudio Team products, **Workbench** for analytics, **Connect** for professional communication of results, and **Package** manager for secure storage of python modules and R packages.
+
+![](Team.png){align="center"}
+
+>>The goal of Q-RaP is to embed computation as a central tenet in the ciricula, allowing students to do something interesting with data in the first 10 minutes of the first class.
 
 ## Examples of use
 
@@ -46,6 +52,19 @@ The goal of Q-RaP is to embed computation as a central tenet in the ciricula, al
 <iframe height="400" width="100%" frameborder="no" src="https://q-rap.connect.qub.ac.uk/QSMF/"> </iframe>
 
 
+### Prediction project in econometrics
 
+<iframe height="400" width="100%" frameborder="no" src="https://q-rap.connect.qub.ac.uk/football"> </iframe>
 
+## Student feedback
 
+The feedback from students has been very positive. 
+
+>I worked in various banks for over 13 years where I was so accustomed to series of physical meetings with my teammates, to and flow of emails, and paperwork to discuss on drafts before finalizing any project. But, when I joined Queen's University for MSc Risk and Investment Course and got acquainted with RStudio cloud Q-RAP, then my whole prospect on teamwork, analytics and data visualization has improved in a much better way.
+For me, the most interesting features of using QRAP are:
+ - I can do my assignment from anywhere, anytime and on any device. The only thing I need is simply the internet connection because I will be working on the cloud.
+ - I can work on a private workspace for individual assignments and a shared workspace for group assignments where access to this assignment will be limited to group members and the course lecturer only.
+ - The best thing about doing group assignments on QRAP is that everyone has access to the same project from their own place. There is no need to come together physically to work on the assignment. Everyone can add content and update the same file as per the task assigned to them. Everyone in the team can also view the progress made by each team member on the project in order to complete the project within the deadline.
+ - Further, if we are facing any difficulties in coding, we can approach the course instructor with our challenges and he can remotely access our project work from his own working desk. In that way, we get support from the lecturer also on an efficient manner.
+ Finally, we can also knit and push commits of work from Rstudio to Github where we can share our work.
+Without any doubt, Rstudio cloud QRAP is the most convenient and efficient platform for group work, coding and data visualization. It has made my life easier while doing my individual project work and group project work at University. I would like to thank our lecturer Dr Barry Quinn for his immense support on this leap jump on data visualization and analytics through QRAP - Samit Raj Shilakar (MSc Risk and Investment 2022)
