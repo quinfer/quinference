@@ -24,9 +24,7 @@ projects: []
 Businesses are experiencing an unstoppable *digital transformation*, and we as a Management school most keep pace to allow our students and staff to remain **credible and relevant**.  To this extent we have build a high-performance cloud computing platform for teaching and research. 
 
 - **Relevant students**: Northern Ireland is a hotbed of digital innovation in financial services and [plans](https://committees.parliament.uk/writtenevidence/42614/pdf/) are in place to develop a global hub for regulatory technology[^1] 
-
 [^1]: Regulatory technology can be defined as  *a range of applications of technology‐enabled innovation for regulatory, compliance and reporting requirements implemented by a regulated institution (with or without the assistance of RegTech provider)* -EBA (2021) Analysis of RegTech In EU Financial Sector 
-
 as part of the UK's FinTech Strategy outline in the Kalifa Review. Talent and skills are a core component of these plans. 
 
 - **Credible research**: For research, the risks of deploying innovation digital technologies requires independent lab set-ups to achieve credible industry facing output. For example, the main challenges for both RegTech providers and their financial services customers are internal. These challenges point to research gaps in data quality, security and privacy, interoperability and integration with existing legacy systms, lack of Financial Instutitions API capabilities quality, security and privacy. The below table from EBA (2021) summarise challenges with internal challenges highlighted.
