@@ -5,7 +5,7 @@ date: '2022-01-27'
 slug: q-rap
 categories: []
 tags: []
-subtitle: '*Q*ueens Management School *R*emote analytics *P*latform'
+subtitle: '**Q-RaP**: **Q**ueens Management School **R**emote **a**nalytics **P**latform'
 summary: ''
 authors: []
 lastmod: "`r Sys.Date()`"
