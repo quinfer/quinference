@@ -23,22 +23,26 @@ projects: []
 
 Businesses are experiencing an unstoppable *digital transformation*, and we as a Management school most keep pace to allow our students and staff to remain **credible and relevant**.  To this extent we have build a high-performance cloud computing platform for teaching and research. 
 
-- **Relevant students**: Northern Ireland is a hotbed of digital innovation in financial services and [plans](https://committees.parliament.uk/writtenevidence/42614/pdf/) are in place to develop a global hub for regulatory technology^[Regulatory technology can be defined as  *a range of applications of technology‐enabled innovation for regulatory, compliance and reporting requirements implemented by a regulated institution (with or without the assistance of RegTech provider)* -EBA (2021) Analysis of RegTech In EU Financial Sector] as part of the UK's FinTech Strategy outline in the Kalifa Review. Talent and skills are a core component of these plans. 
+- **Relevant students**: Northern Ireland is a hotbed of digital innovation in financial services and [plans](https://committees.parliament.uk/writtenevidence/42614/pdf/) are in place to develop a global hub for regulatory technology[^1] 
 
-- **Credible research**: For research, the risks of deploying innovation digital technologies requires independent lab set-ups to achieve credible industry facing output. For example, the main challenges for both RegTech providers and their financial services customers are internal. These challenges point to research gaps in data quality, security and privacy, interoperability and integration with existing legacy systms, lack of Financial Instutitions API capabilities quality, security and privacy. The below table highlights the internal challenges in italics.
+[^1]: Regulatory technology can be defined as  *a range of applications of technology‐enabled innovation for regulatory, compliance and reporting requirements implemented by a regulated institution (with or without the assistance of RegTech provider)* -EBA (2021) Analysis of RegTech In EU Financial Sector 
+
+as part of the UK's FinTech Strategy outline in the Kalifa Review. Talent and skills are a core component of these plans. 
+
+- **Credible research**: For research, the risks of deploying innovation digital technologies requires independent lab set-ups to achieve credible industry facing output. For example, the main challenges for both RegTech providers and their financial services customers are internal. These challenges point to research gaps in data quality, security and privacy, interoperability and integration with existing legacy systms, lack of Financial Instutitions API capabilities quality, security and privacy. The below table from EBA (2021) summarise challenges with internal challenges highlighted.
 
 #### Table of Challenges and Future Research Directions
 
 | |Financial Institutions who adopt RegTech|RegTech Providers|
 |:--|:--:|:--|
-|1|Data‐related challenges and cybersecurity threats|Lack of technological capabilities on FIs’ side |
-|2|Interoperability and integration with the existing legacy systems|Security, data  privacy and protection issues|
+|1|<mark>Data‐related challenges and cybersecurity threats</mark>|<mark>Lack of technological capabilities on FIs’ side </mark>|
+|2|<mark>Interoperability and integration with the existing legacy systems</mark>|<mark>Security, data  privacy and protection issues</mark>|
 |3|Changes to regulation|Changes of national and international regulation|
-|4|Costs and procurement process|Cost of user acquisition|
-|5|Lack of necessary skills and training|Lack of FIs’ understanding of RegTech solutions|
-|6|Perceived immaturity of RegTech providers’ solutions|Lack of harmonised legal and regulatory requirements|
+|4|<mark>Costs and procurement process</mark>|<mark>Cost of user acquisition</mark>|
+|5|<mark>Lack of necessary skills and training</mark>|<mark>Lack of FIs’ understanding of RegTech solutions</mark>|
+|6|<mark>Perceived immaturity of RegTech providers’ solutions</mark>|Lack of harmonised legal and regulatory requirements|
 |7||Clarity of regulatory or supervisory guidance| 
-|8||Competition with other solutions|
+|8||<mark>Competition with other solutions</mark>|
 *Sourced from EBA (2021)*
 
 
@@ -61,7 +65,7 @@ Running [enterprise-level RStudio software](https://www.rstudio.com/products/tea
 
 The advance computing infrastructure using the complete suite of RStudio Team products, **Workbench** for analytics, **Connect** for professional communication of results, and **Package** manager for secure storage of python modules and R packages.
 
-![](Team.png){align="center"}
+![](Team.png)
 
 >>The goal of Q-RaP is to embed computation as a central tenet in the ciricula, allowing students to do something interesting with data in the first 10 minutes of the first class.
 
