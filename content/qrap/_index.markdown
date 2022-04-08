@@ -1,5 +1,5 @@
 ---
-title: "Q-RaP"
+title: "Transforming the Management School for the Digital Age"
 author: Barry Quinn
 date: '2022-01-27'
 slug: q-rap
@@ -98,4 +98,8 @@ Finally, we can also knit and push commits of work from Rstudio to Github where 
 Without any doubt, Rstudio cloud QRAP is the most convenient and efficient platform for group work, coding and data visualization. It has made my life easier while doing my individual project work and group project work at University. I would like to thank our lecturer Dr Barry Quinn for his immense support on this leap jump on data visualization and analytics through QRAP - Samit Raj Shilakar (MSc Risk and Investment 2022)
 
 # Q-RaP in action in research
+
+This fantastic air pollution dashboard was developed by [Dr Neil Rowland](https://pure.qub.ac.uk/en/persons/neil-rowland-2) as part of his research into Public Health in Northern Ireland.
+
+<iframe height="400" width="100%" frameborder="no" src="https://adr2020.shinyapps.io/Air_Pollution_Dashboard_for_Northern_Ireland/"> </iframe>
 
