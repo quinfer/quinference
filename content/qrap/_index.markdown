@@ -8,7 +8,7 @@ tags: []
 subtitle: '**Q-RaP**: **Q**ueens Management School **R**emote **a**nalytics **P**latform'
 summary: ''
 authors: []
-lastmod: "2022-04-08"
+lastmod: "2022-04-16"
 featured: no
 image:
   caption: ''
@@ -86,22 +86,9 @@ Some teaching examples
 
 ### Student feedback
 
-The feedback from students has been very positive. 
+The feedback from students has been very positive. For example, Samit (MSc Risk and Investment Management) explains how Q-RaP enchanced his learning experience at QMS:
 
-I worked in various banks for over 13 years where I was so accustomed to series of physical meetings with my teammates, to and flow of emails, and paperwork to discuss on drafts before finalizing any project. But, when I joined Queen's University for MSc Risk and Investment Course and got acquainted with RStudio cloud Q-RAP, then my whole prospect on teamwork, analytics and data visualization has improved in a much better way.
-
-For me, the most interesting features of using QRAP are:
-
-- I can do my assignment from anywhere, anytime and on any device. The only thing I need is simply the internet connection because I will be working on the cloud.
-
-- I can work on a private workspace for individual assignments and a shared workspace for group assignments where access to this assignment will be limited to group members and the course lecturer only.
-
-- The best thing about doing group assignments on QRAP is that everyone has access to the same project from their own place. There is no need to come together physically to work on the assignment. Everyone can add content and update the same file as per the task assigned to them. Everyone in the team can also view the progress made by each team member on the project in order to complete the project within the deadline.
-
-- Further, if we are facing any difficulties in coding, we can approach the course instructor with our challenges and he can remotely access our project work from his own working desk. In that way, we get support from the lecturer also on an efficient manner.
-
-Finally, we can also knit and push commits of work from Rstudio to Github where we can share our work.
-Without any doubt, Rstudio cloud QRAP is the most convenient and efficient platform for group work, coding and data visualization. It has made my life easier while doing my individual project work and group project work at University. I would like to thank our lecturer Dr Barry Quinn for his immense support on this leap jump on data visualization and analytics through QRAP - Samit Raj Shilakar (MSc Risk and Investment 2022)
+<iframe height="400" width="400" frameborder="no" src="samit.mov"> </iframe>
 
 # Q-RaP in action in research
 
