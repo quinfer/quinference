@@ -8,7 +8,7 @@ tags: []
 subtitle: '**Q-RaP**: **Q**ueens Management School **R**emote **a**nalytics **P**latform'
 summary: ''
 authors: []
-lastmod: "2022-04-16"
+lastmod: "2022-04-17"
 featured: no
 image:
   caption: ''
@@ -88,7 +88,12 @@ Some teaching examples
 
 The feedback from students has been very positive. For example, Samit (MSc Risk and Investment Management) explains how Q-RaP enchanced his learning experience at QMS:
 
-<iframe height="400" width="400" frameborder="no" src="samit.mov"> </iframe>
+
+<video controls="controls" width="800" height="600" name="Video Name">
+  <source src="samit.mov">
+</video>
+
+<!-- <iframe height="400" width="400" frameborder="no" src=""> </iframe> -->
 
 # Q-RaP in action in research
 
