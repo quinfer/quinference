@@ -8,7 +8,7 @@ tags: []
 subtitle: '**Q-RaP**: **Q**ueens Management School **R**emote **a**nalytics **P**latform'
 summary: ''
 authors: []
-lastmod: "2022-04-17"
+lastmod: "2022-04-18"
 featured: no
 image:
   caption: ''
@@ -21,7 +21,7 @@ projects: []
 
 # Why did we build Q-RaP?
 
-Businesses are experiencing an unstoppable *digital transformation*, and we as a Management school most keep pace to allow our students and staff to remain **credible and relevant**.  To this extent we have build a high-performance cloud computing platform for teaching and research. 
+Business decisions and processes are experiencing an unstoppable *digital transformation*. **Viral-like** development of algorithms, cloud computation on-demand, and vast data resources are reshaping how innovation is disrupting Big business.  As a Management school, situated in a strategic UK market for RegTech, we most keep pace with this *digital arms race* to allow our students and staff to remain **credible and relevant**. To this extent we have build a high-performance cloud computing platform called **Q-RaP**.  
 
 - **Relevant students**: Northern Ireland is a hotbed of digital innovation in financial services and plans[^1] are in place to develop a global hub for regulatory technology[^2] as part of the wider UK FinTech Strategy outline in the Kalifa Review 2021[^3]. Talent and skills are a core component of these plans.
 
