@@ -17,8 +17,9 @@ image:
 projects: []
 ---
 
+:::{.center,width="50%"}
 ![](digital-transformation.jpg)
-
+:::
 # Why did we build Q-RaP?
 
 The automatic of corporate decision making can be traced back as far as 1956, when creditworthiness was coded in a digital algorithm by the Fair Issac Corporation.  By 1999, FICO credit scores had largely replaced creditworthiness decisions for loans up to $50,000 in the US^[From Byronjolfsson & McAfee (2018) *Machine, Platform, Crowd: Harnessing the Digital Future* p40].  More recently, **viral-like** development of algorithms, cloud computation on-demand, and vast data resources are reshaping how financial innovation is disrupting Big business.  As a Management school, situated in a strategic UK market for RegTech, we most keep pace with this *digital arms race* to allow our students and staff to remain **credible and relevant**. To this extent we have build a high-performance cloud computing platform called **Q-RaP**.  
