@@ -8,7 +8,7 @@ tags: []
 subtitle: '**Q-RaP**: **Q**ueens Management School **R**emote **a**nalytics **P**latform'
 summary: ''
 authors: []
-lastmod: "2022-04-27"
+lastmod: "2022-05-09"
 featured: no
 image:
   caption: ''
@@ -17,15 +17,13 @@ image:
 projects: []
 ---
 
-# Why did we build Q-RaP?
-
-<img src='digital-transformation.jpg' width=200 height=200 display="inline"/>
+<img src='digital-transformation.jpg' display="inline"/>
 
 >Economic progress, in capitalist society, means turmoil- Joseph A. Schumpeter
 
 The digital automation of corporate decision making can be traced back as far as 1956, when creditworthiness was coded in a digital algorithm by the Fair Issac Corporation.  By 1999, FICO credit scores had largely replaced creditworthiness decisions for loans up to $50,000 in the US[^1].  More recently, **viral-like** development of algorithms, cloud computation on-demand, and vast data resources are reshaping how financial innovation is disrupting business and spurs economic growth. 
 
-In this [second machine age](https://www.brynjolfsson.com/books), as many more customer facing business go virtual, high-level social skills are becoming more valuable than advanced quantitative ones.  The highest payoff for future graduates is likely to be the ability to combine one's social nature with quantitative skills.  The [MIT Laboratory for Social Machines](https://www.media.mit.edu/groups/social-machines/overview/) research lab is one example where this is working well  
+In this [second machine age](https://www.brynjolfsson.com/books), as many more customer facing business go virtual, high-level social skills are becoming more valuable than advanced quantitative ones.  The highest payoff for future graduates is likely to be the ability to combine one's social nature with quantitative skills.  The [MIT Laboratory for Social Machines](https://www.media.mit.edu/groups/social-machines/overview/) research lab is one example where this is working well.
 
 As a Management school, situated in a strategic UK market for RegTech, we most keep pace with this *digital arms race* to allow our students and staff to remain **credible and relevant** in how we understand the interaction of social nature and machine. To this extent we have build a high-performance cloud computing platform called **Q-RaP**.  
 
