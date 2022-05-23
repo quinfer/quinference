@@ -16,8 +16,8 @@ main:
   - name: Teaching
     url: 'teaching'
     weight: 30
-  - name: Quinferencings
-    url: 'post'
+  - name: Q-RaP
+    url: 'qrap'
     weight: 40
   - name: QSMF
     url: 'smf'
