@@ -8,7 +8,7 @@ tags: []
 subtitle: '**Q-RaP**: **Q**ueens Management School **R**emote **a**nalytics **P**latform'
 summary: ''
 authors: []
-lastmod: "2022-05-09"
+lastmod: "2022-05-25"
 featured: no
 image:
   caption: ''
@@ -23,8 +23,7 @@ projects: []
 
 The digital automation of corporate decision making can be traced back as far as 1956, when creditworthiness was coded in a digital algorithm by the Fair Issac Corporation.  By 1999, FICO credit scores had largely replaced creditworthiness decisions for loans up to $50,000 in the US[^1].  More recently, **viral-like** development of algorithms, cloud computation on-demand, and vast data resources are reshaping how digital innovation is disrupting business and spurs economic growth.  For instance a growing trend that is still on the move upwards is a hybrid model where companies combine on-premises infrastructure and cloud-based solutions:
 
-<script type=“text/javascript” src=“https://ssl.gstatic.com/trends_nrtr/2965_RC01/embed_loader.js”></script> <script type=“text/javascript”> trends.embed.renderExploreWidget(“TIMESERIES”, {“comparisonItem”:[{“keyword”:”hybrid cloud”,”geo”:””,”time”:”2004-01-01 2022-05-23”}],”category”:0,”property”:””}, {“exploreQuery”:”date=all&q=hybrid%20cloud”,”guestPath”:”https://trends.google.com:443/trends/embed/“}); </script> 
- 
+<img src="/qrap/_index_files/figure-html/unnamed-chunk-1-1.png" width="672" />
 
 In this [second machine age](https://www.brynjolfsson.com/books), as many more customer facing business go virtual, high-level social skills are becoming more valuable than advanced quantitative ones.  The highest payoff for future graduates is likely to be the ability to combine one's social nature with quantitative skills.  The [MIT Laboratory for Social Machines](https://www.media.mit.edu/groups/social-machines/overview/) research lab is one example where this is working well.
 
