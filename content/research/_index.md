@@ -20,7 +20,7 @@
 | **Title**| **Areas**| **Co-investigators**| **Potential output**|                                             
 | --- | --- | --- | -- |
 |*Stock market anomaly detection using deep and shallow learning*| Unsupervised and semi-supervised ML, market microstructure|Alan Hanna, Paul Miller, Liu Weiler (Visiting PhD Student)| 2 4* ABS papers|
-| *Teaching data science in the age of financial technology*v| Data science, financial machine learning, student development| 1 online PG certificate + 1 3* ABS publication|
+| *Teaching data science in the age of financial technology*| Data science, financial machine learning, student development| Tony Klien |1 online PG certificate + 1 3* ABS publication|
 | *Credit Easing Programs and ETF activity* | Exchange-traded funds, financial machine learning, quantitative easing, markovian switching vector autoregressive models, Bayesian inference | Lisa Sheenan(Queen's University Belfast), Lisha Li(Southwestern University of Economics and Finance) | 2 4* ABS papers|
 | *Market Expectations and Mangerial Turnover: Evidence from a Frequent Feedback Market*     | AI, causal inference and machine learning, sports economics, labour economics | Ronan Gallagher (Edinburgh Business School)                  | 1 x 3* ABS papers                                            |
 | *Implications of Basel III for Chinese banking*              | banking, financial regulation                                | Lisa Sheenan, Veronica Zhang (PhD Candidate, Queen's University Belfast) | 3 x 3-4* ABS papers                                          |
