@@ -2,6 +2,7 @@
 
 |**Co-Authors**|**Title**|**Areas**|**Journal**|**Date**|	
 |:---:|:---:|:---:|:---:|:---:|
+|Single Authored| *fml: financial machine learning R (programming language) package*|Financial machine learning, portfolio management|https://zenodo.org/record/6379925#.YrWrkS8w2E0|2022|
 |[Fearghal Kearney](https://pure.qub.ac.uk/en/persons/fearghal-kearney)|*Developing a Value-at-Risk Analytics Platform: Theoretical Foundations*|Financial machine learning, empirical asset pricing, risk management, bibliometric analysis|Commissioned Report Invest NI|2021|
 |[Jiadong Liu](https://pure.qub.ac.uk/en/persons/jiadong-liu), [Fotis Papailias](https://www.kcl.ac.uk/people/fotis-papailias)|*Direction-of-Change Forecasting in Commodity Futures Markets?*|Financial machine learning, empirical asset pricing, trading strategies|International Review of Financial Analysis|2021|
 |[Donal McKillop](https://pure.qub.ac.uk/en/persons/donal-mckillop), [Declan French](https://pure.qub.ac.uk/en/persons/declan-french), [Anna L. Sobiech](https://risweb.st-andrews.ac.uk/portal/en/persons/anna-lucia-sobiech),[John Wilson](https://www.st-andrews.ac.uk/management/people/jsw7)|*Cooperative Financial Institutions: A Review of the Literature.*|Banking, cooperatives, survey| International Review of Financial Analysis|2020|
