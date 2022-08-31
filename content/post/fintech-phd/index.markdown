@@ -38,7 +38,7 @@ The position is fully funded by a [CAST studentship](https://www.nidirect.gov.uk
 
 The value of a DfE studentship for UK domiciled students the value of an award includes the cost of approved fees as well as maintenance support. In academic year 2021-2022 the basic rate of maintenance support for a Research Studentship is £15,285 (tax-free) while the basic rate of maintenance support for a Taught Studentship is  £7,643. For non-domiciled UK candidate please read the eligibility criteria for  DfE studentships [here](https://www.nidirect.gov.uk/articles/department-economy-studentships).
 
-Apply online at: https://dap.qub.ac.uk/portal/user/u_login.php and enter the text QMS2021FIN/AIML into the funding field.  The application deadline is October 15th 2021, with shortlisted candidates being asked to interview shortly after this date.  The successful candidate would ideally be able to start immediately, but no later than 30th October 2021.
+Apply online at: https://dap.qub.ac.uk/portal/user/u_login.php and enter the text QMS2022FIN/AIML into the funding field.  The application deadline is September 30th 2022, with shortlisted candidates being asked to interview shortly after this date.  The successful candidate would ideally be able to start immediately, but no later than 30th October 2021.
 
 ### Candidate criteria
 1. 2.1 Honours degree or equivalent qualification (or equivalent) in Finance, Computer Science, Mathematics, or a related subject.  A Master's degree (or equivalent professional qualification acceptable to the University) will normally be required. Extensive professional experience may be considered in lieu of a Master's degree on a case-by-case basis.
