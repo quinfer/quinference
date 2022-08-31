@@ -8,7 +8,7 @@ tags: []
 subtitle: "How can financial technology AI innovations, enhance customer experience and trust while improving operational performance"
 summary: 'This is a collaborative project exploring how AI and machine learning impact financial services customers.  The project is fully-funded by a Northern Ireland DfE CAST studentship, worth approximately £28,000 per annum gross.'
 authors: []
-lastmod: '2021-02-26T14:33:28Z'
+lastmod: '2022-08-26T14:33:28Z'
 featured: no
 image:
   caption: ''
@@ -27,7 +27,7 @@ This funded PhD offers a unique opportunity to understand how digital innovation
 2.	ML innovations to default risk prediction and the development of new products.
 3.	Customer experience innovations using AI and ML techniques and digital platforms.
 
-The successful candidate with be jointly supervised by Professor Donal McKillop and myself. Donal has published extensively on credit unions including work on their ownership structure, governance, regulatory change, capital adjustment and merger and acquisition behavior. Donal is currently Director of Centre for Not-for-profit and Public-sector Research (CNPR) at Queen’s University and Chair of the Chairperson of the Credit Union CEO Forum (CU CEO Forum.ie).
+The successful candidate will be supervised Dr Barry Quinn.  Barry leads out on fintech and data science for the management school, and has been involved with industry collaborations valued at over £1.5M. Barry is a royal statistical society professionally accredited data scientist who has extensive experience in PhD supervision. Most notably, he supervises industry relevant projects in interpretable machine learning and econometrics, financial machine learning, and financial regulation and risk analytics. He also has two new PhD students who are exploring regulatory technology and financial inclusion, ESG fair value analytics.  
 
 ## Collaborative Industry placement
 The goal of this project is to achieve output with significant impact for the industry partner. The successful candidate will liaise closely with key industry stakeholders and have direct industry experience via a work placement.
@@ -36,7 +36,7 @@ The goal of this project is to achieve output with significant impact for the in
 ## Funding and candidate criteria
 The position is fully funded by a [CAST studentship](https://www.nidirect.gov.uk/articles/co-operative-awards-science-and-technology) fro the Northern Ireland Department of the Economy (DfE).
 
-The value of a DfE studentship for UK domiciled students the value of an award includes the cost of approved fees as well as maintenance support. In academic year 2020-2021 the basic rate of maintenance support for a Research Studentship is £15,285 (tax-free) while the basic rate of maintenance support for a Taught Studentship is  £7,643. For non-domiciled UK candidate please read the eligibility criteria for  DfE studentships [here](https://www.nidirect.gov.uk/articles/department-economy-studentships).
+The value of a DfE studentship for UK domiciled students the value of an award includes the cost of approved fees as well as maintenance support. In academic year 2021-2022 the basic rate of maintenance support for a Research Studentship is £15,285 (tax-free) while the basic rate of maintenance support for a Taught Studentship is  £7,643. For non-domiciled UK candidate please read the eligibility criteria for  DfE studentships [here](https://www.nidirect.gov.uk/articles/department-economy-studentships).
 
 Apply online at: https://dap.qub.ac.uk/portal/user/u_login.php and enter the text QMS2021FIN/AIML into the funding field.  The application deadline is October 15th 2021, with shortlisted candidates being asked to interview shortly after this date.  The successful candidate would ideally be able to start immediately, but no later than 30th October 2021.
 

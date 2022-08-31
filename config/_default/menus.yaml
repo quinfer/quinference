@@ -23,7 +23,7 @@ main:
     url: 'smf'
     weight: 50
   - name: Posts
-    url: 'posts'
+    url: 'post'
     weight: 60
 
 # Link to a PDF of your resume/CV from the menu.
