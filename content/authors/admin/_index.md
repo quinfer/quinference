@@ -17,12 +17,11 @@ organizations:
 bio: "Barry"
 
 interests:
-- Open financial data science
-- Econometrics, AI, and machine learning
-- Trustworthy AI in finance
-- Risk analytics and financial regulation
+- Improving econometrics using AI
+- Risk analytics and regulation
 - Association football economics
-- Bayesian inference in finance
+- Technology adoption
+- Data science for finance
 
 education:
   courses:
