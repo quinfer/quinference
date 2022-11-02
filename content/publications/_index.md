@@ -2,6 +2,7 @@
 
 |**Co-Authors**|**Title**|**Areas**|**Journal**|**Date**|	
 |:---:|:---:|:---:|:---:|:---:|
+|Timo Kousmanen, Ronan Gallagher|[*Lurking in the Shadows: The impact of CO~2~ emissions on carbon pricing in the Kyoto agreement period"](https://www.sciencedirect.com/science/article/pii/S0140988322004674)|Marginal abatement costs; Climate finance; Environmental efficiency; Convex nonparametric least sqaures quantile regression; Carbon emissions target setting; Kyoto protocol; Development economics|Energy Economics|1/11/2022|
 |Single Authored| *fml: financial machine learning R (programming language) package*|Financial machine learning, portfolio management|https://zenodo.org/record/6379925#.YrWrkS8w2E0|2022|
 |[Fearghal Kearney](https://pure.qub.ac.uk/en/persons/fearghal-kearney)|*Developing a Value-at-Risk Analytics Platform: Theoretical Foundations*|Financial machine learning, empirical asset pricing, risk management, bibliometric analysis|Commissioned Report Invest NI|2021|
 |[Jiadong Liu](https://pure.qub.ac.uk/en/persons/jiadong-liu), [Fotis Papailias](https://www.kcl.ac.uk/people/fotis-papailias)|*Direction-of-Change Forecasting in Commodity Futures Markets?*|Financial machine learning, empirical asset pricing, trading strategies|International Review of Financial Analysis|2021|
