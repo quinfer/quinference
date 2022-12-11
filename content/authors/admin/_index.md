@@ -66,9 +66,8 @@ social:
   link: https://github.com/quinfer
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#  icon_pack: ai
-#  link: http://drbq.co/BQ_CV
+- icon: cv
+  icon_pack: ai
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 #email: ""
