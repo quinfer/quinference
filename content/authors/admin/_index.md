@@ -6,7 +6,7 @@ title: Barry Quinn
 superuser: true
 
 # Role/position
-role: Senior Lecturer in Financial Technology and Data Science
+role: Director of **F**inance, technology, and **A**rtificial intelligence la**B** [FAB](https://www.qub.ac.uk/schools/QueensManagementSchool/Research/ResearchCentres/FAB/)
 
 # Organizations/Affiliations
 organizations:
