@@ -1,3 +1,7 @@
+---
+title: Teaching policies
+---
+
 ## Communication policy
 
 I like getting email. I don't like getting emails written as text messages. Besides showing very little respect for the reader, receiving emails which aren't written properly forces the reader to decode just what your correspondent actually wants from you, wasting their time and frustrating them. Sometimes the intention is obvious, like the email I received two years ago.
@@ -29,7 +33,7 @@ And we're done. I'm looking forward to reading your next email.
 
 If you're curious about writing well, read this [book](https://www.amazon.co.uk/Economical-Writing-Third-Thirty-Five-Persuasive/dp/022644807X/ref=sr_1_1?crid=3RAWWWGD7LQT&keywords=economical+writing&qid=1674121590&sprefix=economical+writing%2Caps%2C76&sr=8-1), and if you can't be bothered with that, [here](http://www.stephenkinsella.net/2006/12/29/notes-on-economical-writing/) are Stephen Kinsella's notes from the book.
 
-## AI policy
+## AI policy (FOR ALGORITHMIC TRADING AND INVESTMENT ONLY)
 
 I expect you to use AI (ChatGPT and image generation tools) in this class. Some assignments will require it. Learning to use AI is an emerging skill, and I provide some tutorials in Canvas about how to use them. I am happy to meet and help with these tools during my coding clinics or after class.
 
