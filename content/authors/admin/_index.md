@@ -60,7 +60,7 @@ social:
   link: mailto:b.quinn@qub.ac.uk
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/quinnference
+  link: https://twitter.com/con0metrix
 - icon: github
   icon_pack: fab
   link: https://github.com/quinfer
