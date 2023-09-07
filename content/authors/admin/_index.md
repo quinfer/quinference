@@ -6,7 +6,7 @@ title: Barry Quinn
 superuser: true
 
 # Role/position
-role: Director of **F**inance, technology, and **A**rtificial intelligence la**B** [FAB](https://www.qub.ac.uk/schools/QueensManagementSchool/Research/ResearchCentres/FAB/)
+role: Director of **F**inance and **A**rtificial intelligence la**B** [FAB](https://www.qub.ac.uk/schools/queens-business-school/research/finance/)
 
 # Organizations/Affiliations
 organizations:
