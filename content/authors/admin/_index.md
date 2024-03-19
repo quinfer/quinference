@@ -17,11 +17,8 @@ organizations:
 bio: "Barry"
 
 interests:
-- Improving econometrics using AI
-- Risk analytics and regulation
-- Association football economics
-- Technology adoption
-- Data science for finance
+- AI and FinTech
+- Econometrics and AI
 
 education:
   courses:
