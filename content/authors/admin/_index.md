@@ -1,79 +1,55 @@
 ---
-# Display name
 title: Barry Quinn
-
-# Is this the primary user of the site?
 superuser: true
 
-# Role/position
-role: Director of **F**inance and **A**rtificial intelligence la**B** [FAB](https://www.qub.ac.uk/schools/queens-business-school/research/finance/)
+role: Professor of Finance & Financial Technology — Director, Centre for Finance and Responsible Technology
 
-# Organizations/Affiliations
 organizations:
-- name: Queen's University Belfast
-  url: "www.qub.ac.uk/mgt"
+- name: Ulster University Business School
+  url: "https://www.ulster.ac.uk/faculties/ulster-university-business-school"
 
-# Short bio (displayed in user profile at end of posts)
 bio: "Barry"
 
 interests:
-- AI and FinTech
-- Econometrics and AI
+- Trustworthy AI in finance
+- Statistics, causal inference, and economic measurement
+- Teaching in the age of large language models
+- Bodhrán and Irish traditional music
 
 education:
   courses:
+  - course: MSc Artificial Intelligence (Distinction)
+    institution: Queen's University Belfast
+    year: 2025
+  - course: Advanced Data Science Professional
+    institution: Royal Statistical Society
+    year: 2023
   - course: Chartered Statistician
-    institution: Royal Statistics Society
+    institution: Royal Statistical Society
     year: 2019
   - course: PhD in Finance
     institution: Queen's University Belfast
-    year: 2010
-  - course: MSc in Finance
+    year: 2012
+  - course: MSc Quantitative Finance
     institution: Royal Melbourne Institute of Technology
-    year: 2008
+    year: 2006
+  - course: BSc Accounting and Finance
+    institution: Queen's University Belfast
+    year: 1995
 
-# education:
-#  courses:
-# - course: Chartered Statistician
-#   institution: Royal Statistics Society
-#   year: 2019
-# - course: PhD in Finance
-#   institution: Queen's University Belfast
-#   year: 2012
-# - course: MSc in Finance
-#   institution: Royal Melbourne Institute of Technology
-#   year: 2009
-# - course: BSc in Accounting and Finance
-#   institution: Queen's University Belfast
-#   year: 1995
-
-# Social/Academic Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:b.quinn@qub.ac.uk
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/con0metrix
+  link: mailto:b.quinn1@ulster.ac.uk
 - icon: github
   icon_pack: fab
   link: https://github.com/quinfer
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0002-8637-9060
 - icon: cv
   icon_pack: ai
-
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-#email: ""
-
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
-#user_groups:
-#- Researchers
-#- Visitors
+  link: https://quinfer.github.io/resume/
 ---
 
-I help teach students to become more prepared for the future.  I teach them important skills like experimenting and looking at data to make better decisions. I teach them things that will help them get a job, be strong and brave, be humble, and be curious about the world.  I help them learn about numbers and how to use technology for finance and data science.  I do research to stay curious, humble, learn new things, and to help people make smart decisions about finance and other topics. I teach and research in advanced topics like statistics, computer science, and econometrics.
+I help teach students to become more prepared for the future.  I teach them important skills like experimenting and looking at data to make better decisions.  I teach them things that will help them get a job, be strong and brave, be humble, and be curious about the world.  I help them learn about numbers and how to use technology for finance and data science.  I do research to stay curious, humble, learn new things, and to help people make smart decisions about finance and other topics.  I teach and research in advanced topics like statistics, computer science, and econometrics.

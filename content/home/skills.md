@@ -35,7 +35,7 @@ subtitle = ""
 [[feature]]
   icon = "music"
   icon_pack = "fas"
-  name = "Bodhranisation"
+  name = "Bodhrán"
   description = "Professional Expert"
 
 [[feature]]
