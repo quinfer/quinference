@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Sideline Kick Dispute — Derry v Monaghan 2025</title>
+<meta name="description" content="An interactive legal explainer of the GAA 2025 sideline kick two-point dispute between Derry and Monaghan, with full rule citations.">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --derry: #b91c1c;
+    --derry-light: #fee2e2;
+    --derry-dark: #7f1d1d;
+    --monaghan: #1e3a5f;
+    --monaghan-light: #dbeafe;
+    --monaghan-dark: #0f2340;
+    --pitch: #2d6e3a;
+    --pitch-alt: #296637;
+    --gold: #eab308;
+    --bg: #f8f7f4;
+    --surface: #ffffff;
+    --border: #e5e3dc;
+    --text: #1a1a18;
+    --muted: #6b6b68;
+    --rule-bg: #fefce8;
+    --rule-border: #ca8a04;
+  }
+
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  /* HEADER */
+  header {
+    background: #111;
+    color: #fff;
+    padding: 0;
+    border-bottom: 3px solid var(--derry);
+  }
+  .header-inner {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 20px 24px 16px;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .header-crests { display: flex; gap: 0; align-items: center; }
+  .crest {
+    width: 44px; height: 44px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 11px; font-weight: 700; letter-spacing: 0.03em;
+    font-family: Georgia, serif;
+  }
+  .crest-d { background: var(--derry); color: #fff; border: 2px solid #fff; z-index: 2; }
+  .crest-m { background: #fff; color: var(--monaghan); border: 2px solid #cbd5e1; margin-left: -8px; }
+  .header-text { flex: 1; min-width: 220px; }
+  header h1 { font-size: 20px; font-weight: 700; color: #fff; line-height: 1.3; margin-bottom: 4px; }
+  header h1 span.vs { color: var(--gold); margin: 0 6px; }
+  header .subtitle { font-size: 12px; color: #9ca3af; font-family: 'Courier New', monospace; letter-spacing: 0.05em; }
+  .header-badge {
+    background: var(--derry); color: #fff;
+    font-size: 11px; font-weight: 700; padding: 4px 12px;
+    border-radius: 20px; font-family: 'Courier New', monospace;
+    letter-spacing: 0.06em; white-space: nowrap; align-self: flex-start;
+    margin-top: 4px;
+  }
+
+  /* RULE CITATION BOX */
+  .rule-banner {
+    background: var(--rule-bg);
+    border-top: 1px solid #fde68a;
+    border-bottom: 1px solid #fde68a;
+  }
+  .rule-banner-inner {
+    max-width: 860px; margin: 0 auto; padding: 14px 24px;
+    display: flex; gap: 12px; align-items: flex-start;
+  }
+  .rule-icon {
+    width: 28px; height: 28px; border-radius: 50%;
+    background: var(--rule-border); color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px; flex-shrink: 0; margin-top: 1px;
+  }
+  .rule-banner p { font-size: 13px; color: #78350f; line-height: 1.6; }
+  .rule-banner p strong { font-weight: 700; color: #451a03; }
+  .rule-banner cite { font-style: italic; color: #92400e; font-size: 12px; }
+
+  /* MAIN LAYOUT */
+  main { max-width: 860px; margin: 0 auto; padding: 24px 24px 48px; }
+
+  /* TABS */
+  .tabs {
+    display: flex; border-bottom: 1px solid var(--border);
+    margin-bottom: 24px; gap: 0;
+  }
+  .tab {
+    padding: 10px 18px; font-size: 14px; cursor: pointer;
+    color: var(--muted); border-bottom: 2px solid transparent;
+    margin-bottom: -1px; font-family: 'Courier New', monospace;
+    letter-spacing: 0.03em; transition: color 0.15s;
+    background: none; border-top: none; border-left: none; border-right: none;
+  }
+  .tab:hover { color: var(--text); }
+  .tab.on { color: var(--text); border-bottom-color: var(--derry); font-weight: 700; }
+
+  .pane { display: none; }
+  .pane.on { display: block; }
+
+  /* INTRO SUMMARY */
+  .incident-intro {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; padding: 18px 20px; margin-bottom: 20px;
+  }
+  .incident-intro h2 { font-size: 15px; font-weight: 700; margin-bottom: 8px; color: var(--text); }
+  .incident-intro p { font-size: 13px; color: var(--muted); line-height: 1.65; }
+  .fact-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+  .chip {
+    font-size: 12px; padding: 4px 12px; border-radius: 20px;
+    font-family: 'Courier New', monospace; font-weight: 700;
+  }
+  .chip-d { background: var(--derry); color: #fff; }
+  .chip-m { background: var(--monaghan); color: #fff; }
+  .chip-n { background: #f1f0eb; color: var(--muted); border: 1px solid var(--border); }
+
+  /* PITCH */
+  .pitch-wrap {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; overflow: hidden; margin-bottom: 16px;
+  }
+  .pitch-legend {
+    display: flex; gap: 20px; padding: 8px 14px;
+    background: #f1f0eb; font-size: 12px; color: var(--muted);
+    border-bottom: 1px solid var(--border); align-items: center;
+    font-family: 'Courier New', monospace;
+  }
+  .ldot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; margin-right: 5px; vertical-align: middle; }
+
+  .step-box {
+    background: #f1f0eb; border: 1px solid var(--border);
+    border-radius: 8px; padding: 12px 16px;
+    font-size: 14px; color: var(--text); line-height: 1.6;
+    margin-bottom: 12px; min-height: 52px;
+    font-family: 'Courier New', monospace;
+  }
+  .step-box strong { color: var(--derry); }
+
+  .ctrl { display: flex; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+  .btn {
+    padding: 9px 20px; border-radius: 6px; font-size: 14px;
+    cursor: pointer; font-family: Georgia, serif;
+    border: 1px solid var(--border);
+    background: var(--surface); color: var(--text);
+    transition: background 0.15s;
+  }
+  .btn:hover { background: #f1f0eb; }
+  .btn-primary { background: var(--derry); color: #fff; border-color: var(--derry); }
+  .btn-primary:hover { background: var(--derry-dark); }
+
+  /* ARGUMENTS */
+  .arg-intro {
+    font-size: 14px; color: var(--muted); margin-bottom: 20px; line-height: 1.65;
+  }
+
+  .teams-grid {
+    display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr);
+    gap: 16px; margin-bottom: 16px;
+  }
+  @media(max-width: 600px) { .teams-grid { grid-template-columns: 1fr; } }
+
+  .team-panel { border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+  .team-header {
+    padding: 14px 16px; font-size: 14px; font-weight: 700;
+    display: flex; align-items: center; gap: 8px;
+    font-family: 'Courier New', monospace; letter-spacing: 0.03em;
+  }
+  .team-header-d { background: var(--derry); color: #fff; }
+  .team-header-m { background: var(--monaghan); color: #fff; }
+  .team-stance {
+    font-size: 11px; font-weight: 400; padding: 2px 10px;
+    border-radius: 20px; margin-left: auto; white-space: nowrap;
+    letter-spacing: 0;
+  }
+  .stance-d { background: rgba(255,255,255,0.2); color: #fff; }
+  .stance-m { background: rgba(255,255,255,0.2); color: #fff; }
+
+  .arg-list { list-style: none; }
+  .arg-item { border-top: 1px solid var(--border); }
+  .arg-btn {
+    width: 100%; text-align: left; padding: 11px 14px;
+    background: none; border: none; cursor: pointer;
+    font-size: 13px; color: var(--text); display: flex;
+    align-items: flex-start; gap: 10px;
+    transition: background 0.12s; font-family: Georgia, serif;
+    line-height: 1.4;
+  }
+  .arg-btn:hover { background: #f8f7f4; }
+  .arg-num {
+    font-size: 11px; font-weight: 700; width: 20px; height: 20px;
+    border-radius: 50%; display: flex; align-items: center;
+    justify-content: center; flex-shrink: 0; margin-top: 1px;
+    font-family: 'Courier New', monospace;
+  }
+  .num-d { background: var(--derry); color: #fff; }
+  .num-m { background: var(--monaghan); color: #fff; }
+
+  /* ARGUMENT DETAIL */
+  .detail-panel {
+    border: 1px solid var(--border); border-radius: 10px;
+    overflow: hidden; margin-top: 4px; display: none;
+  }
+  .detail-panel.on { display: block; }
+  .detail-header {
+    padding: 13px 16px; display: flex; align-items: center; gap: 10px;
+  }
+  .detail-header-d { background: var(--derry); color: #fff; }
+  .detail-header-m { background: var(--monaghan); color: #fff; }
+  .detail-title { font-size: 14px; font-weight: 700; flex: 1; font-family: 'Courier New', monospace; }
+  .close-btn {
+    margin-left: auto; background: rgba(0,0,0,0.2); border: none;
+    color: inherit; border-radius: 4px; padding: 3px 10px;
+    cursor: pointer; font-size: 12px; font-family: Georgia, serif;
+  }
+  .close-btn:hover { background: rgba(0,0,0,0.35); }
+
+  .detail-body { padding: 18px 20px; }
+  .detail-body p { font-size: 14px; color: var(--text); line-height: 1.75; margin-bottom: 14px; }
+  .detail-body strong { font-weight: 700; }
+  .detail-body em { font-style: italic; }
+
+  /* RULE CITATION */
+  .rule-cite {
+    background: var(--rule-bg); border: 1px solid #fde68a;
+    border-left: 3px solid var(--rule-border);
+    border-radius: 0 6px 6px 0; padding: 12px 16px; margin: 14px 0;
+  }
+  .rule-cite-label {
+    font-size: 10px; font-weight: 700; color: var(--rule-border);
+    font-family: 'Courier New', monospace; letter-spacing: 0.08em;
+    margin-bottom: 5px; display: flex; align-items: center; gap: 6px;
+  }
+  .rule-cite-label::before {
+    content: '§'; font-size: 13px;
+  }
+  .rule-cite blockquote {
+    font-size: 13px; color: #78350f; line-height: 1.65;
+    font-style: italic; margin: 0;
+  }
+  .rule-cite .rule-source {
+    font-size: 11px; color: #92400e; margin-top: 6px;
+    font-family: 'Courier New', monospace;
+  }
+  .rule-source a { color: #92400e; }
+
+  /* CLOSING SUBMISSION */
+  .submission-close {
+    border-left: 3px solid var(--border); padding: 10px 14px;
+    margin: 14px 0 4px; font-size: 13px; color: var(--muted);
+    font-style: italic; line-height: 1.65;
+    background: #f8f7f4; border-radius: 0 6px 6px 0;
+  }
+
+  /* VERDICT */
+  .verdict-intro { font-size: 14px; color: var(--muted); margin-bottom: 16px; line-height: 1.65; }
+  .vote-grid {
+    display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr);
+    gap: 14px; margin: 20px 0;
+  }
+  @media(max-width:500px){ .vote-grid { grid-template-columns: 1fr; } }
+  .vote-card {
+    border: 1px solid var(--border); border-radius: 10px;
+    padding: 18px 16px; cursor: pointer; text-align: center;
+    transition: border-color 0.15s, box-shadow 0.15s;
+    background: var(--surface);
+  }
+  .vote-card:hover { border-color: #9ca3af; }
+  .vote-card-d { border-top: 3px solid var(--derry); border-radius: 0 0 10px 10px; }
+  .vote-card-m { border-top: 3px solid var(--monaghan); border-radius: 0 0 10px 10px; }
+  .vote-card.voted-d { background: var(--derry-light); border-color: var(--derry); }
+  .vote-card.voted-m { background: var(--monaghan-light); border-color: var(--monaghan); }
+  .vote-county { font-size: 16px; font-weight: 700; margin-bottom: 4px; }
+  .vote-county-d { color: var(--derry); }
+  .vote-county-m { color: var(--monaghan); }
+  .vote-desc { font-size: 12px; color: var(--muted); line-height: 1.5; }
+  .vote-crest {
+    width: 40px; height: 40px; border-radius: 50%; margin: 0 auto 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px; font-weight: 700; font-family: Georgia, serif;
+  }
+  .vote-crest-d { background: var(--derry); color: #fff; }
+  .vote-crest-m { background: var(--monaghan); color: #fff; }
+
+  .result-grid {
+    display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr);
+    gap: 14px; margin-top: 20px; display: none;
+  }
+  .result-card {
+    border: 1px solid var(--border); border-radius: 10px; padding: 16px;
+    background: var(--surface);
+  }
+  .result-card-d { border-top: 3px solid var(--derry); border-radius: 0 0 10px 10px; }
+  .result-card-m { border-top: 3px solid var(--monaghan); border-radius: 0 0 10px 10px; }
+  .result-card h3 { font-size: 13px; font-weight: 700; margin-bottom: 10px; color: var(--muted); font-family: 'Courier New', monospace; }
+  .bar-track { height: 6px; background: #e5e3dc; border-radius: 3px; margin: 8px 0; overflow: hidden; }
+  .bar-fill { height: 100%; border-radius: 3px; width: 0; transition: width 1s ease; }
+  .bar-d { background: var(--derry); }
+  .bar-m { background: var(--monaghan); }
+  .bar-pct { font-size: 12px; color: var(--muted); font-family: 'Courier New', monospace; }
+  .result-card p { font-size: 12px; color: var(--muted); margin-top: 10px; line-height: 1.6; }
+
+  .legal-note {
+    background: #f1f0eb; border: 1px solid var(--border);
+    border-radius: 8px; padding: 16px 18px; margin-top: 20px;
+  }
+  .legal-note-label {
+    font-size: 11px; font-weight: 700; color: var(--muted);
+    font-family: 'Courier New', monospace; letter-spacing: 0.08em; margin-bottom: 8px;
+  }
+  .legal-note p { font-size: 13px; color: var(--text); line-height: 1.7; }
+  .legal-note em { color: var(--derry); font-style: normal; font-weight: 700; }
+
+  /* FOOTER */
+  footer {
+    background: #111; color: #6b7280; font-size: 12px;
+    text-align: center; padding: 16px 24px;
+    font-family: 'Courier New', monospace;
+    border-top: 1px solid #222;
+  }
+  footer a { color: #9ca3af; text-decoration: none; }
+  footer a:hover { color: #fff; }
+
+  @media(max-width: 600px) {
+    main { padding: 16px 14px 40px; }
+    header h1 { font-size: 17px; }
+    .tab { padding: 8px 12px; font-size: 13px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="header-crests">
+      <div class="crest crest-d">DER</div>
+      <div class="crest crest-m">MON</div>
+    </div>
+    <div class="header-text">
+      <h1>Derry <span class="vs">v</span> Monaghan</h1>
+      <div class="subtitle">GAA 2025 — The sideline kick dispute &nbsp;|&nbsp; An interactive legal explainer</div>
+    </div>
+    <span class="header-badge">INTERACTIVE</span>
+  </div>
+</header>
+
+<div class="rule-banner">
+  <div class="rule-banner-inner">
+    <div class="rule-icon">§</div>
+    <p>
+      <strong>The rule at the heart of this dispute.</strong>
+      The GAA Football Review Committee's 2025 rule enhancements state that two points are awarded for a ball
+      <em>"cleanly kicked from play or a free over the bar from on or outside the arc, and without touching another player on either team."</em>
+      A sideline kick is not mentioned.
+      <br><cite>Source: GAA FRC Rule Enhancements Explainer, gaa.ie, January 2025 &mdash; Official Guide Part 2, GAA, January 2025</cite>
+    </p>
+  </div>
+</div>
+
+<main>
+
+  <div class="tabs">
+    <button class="tab on" onclick="ST('p')">The incident</button>
+    <button class="tab" onclick="ST('a')">The arguments</button>
+    <button class="tab" onclick="ST('v')">Your verdict</button>
+  </div>
+
+  <!-- INCIDENT TAB -->
+  <div id="pane-p" class="pane on">
+    <div class="incident-intro">
+      <h2>What happened</h2>
+      <p>Derry are leading Monaghan by two points with ten seconds remaining. The ball goes over the sideline near Derry's own goal — Derry touched it last. A sideline kick is awarded to Monaghan. Monaghan take the kick from outside the 40m arc, the ball sails over the bar, and the referee raises two hands. Derry dispute the award of two points. If it stands, the sides are level and extra time follows — which Monaghan win.</p>
+      <div class="fact-chips">
+        <span class="chip chip-d">Derry +2 pts</span>
+        <span class="chip chip-m">Monaghan chasing</span>
+        <span class="chip chip-n">00:10 remaining</span>
+        <span class="chip chip-n">Sideline kick to Monaghan</span>
+        <span class="chip chip-n">Ball from outside 40m arc</span>
+      </div>
+    </div>
+
+    <div class="pitch-wrap">
+      <div class="pitch-legend">
+        <span><span class="ldot" style="background:#b91c1c;border:1px solid #7f1d1d"></span>Derry (red)</span>
+        <span><span class="ldot" style="background:#1e3a5f;border:1px solid #0f2340"></span>Monaghan (white/navy)</span>
+        <span><span class="ldot" style="background:#eab308;border:1px solid #a16207"></span>Ball</span>
+      </div>
+      <svg width="100%" viewBox="0 0 560 250" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0" y="0" width="560" height="250" fill="#2d6e3a"/>
+        <rect x="0"   y="0" width="56" height="250" fill="#296637"/>
+        <rect x="112" y="0" width="56" height="250" fill="#296637"/>
+        <rect x="224" y="0" width="56" height="250" fill="#296637"/>
+        <rect x="336" y="0" width="56" height="250" fill="#296637"/>
+        <rect x="448" y="0" width="56" height="250" fill="#296637"/>
+        <rect x="15" y="12" width="530" height="226" fill="none" stroke="rgba(255,255,255,0.75)" stroke-width="1.5"/>
+        <line x1="280" y1="12" x2="280" y2="238" stroke="rgba(255,255,255,0.75)" stroke-width="1.5"/>
+        <circle cx="280" cy="125" r="26" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="1"/>
+        <rect x="15" y="92" width="15" height="66" fill="none" stroke="rgba(255,255,255,0.75)" stroke-width="1.5"/>
+        <line x1="15" y1="82" x2="92" y2="82" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+        <line x1="15" y1="168" x2="92" y2="168" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+        <line x1="134" y1="12" x2="134" y2="238" stroke="rgba(255,255,255,0.55)" stroke-width="1.2"/>
+        <rect x="15" y="70" width="84" height="110" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+        <rect x="530" y="92" width="15" height="66" fill="none" stroke="rgba(255,255,255,0.75)" stroke-width="1.5"/>
+        <line x1="545" y1="82" x2="468" y2="82" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+        <line x1="545" y1="168" x2="468" y2="168" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+        <line x1="426" y1="12" x2="426" y2="238" stroke="rgba(255,255,255,0.55)" stroke-width="1.2"/>
+        <rect x="461" y="70" width="84" height="110" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+        <path d="M185,12 Q177,125 185,238" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1.2" stroke-dasharray="5,4"/>
+        <path d="M375,12 Q383,125 375,238" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1.2" stroke-dasharray="5,4"/>
+        <text x="54"  y="9"  font-family="Georgia,serif" font-size="9" fill="rgba(255,255,255,0.7)" text-anchor="middle">Derry goal</text>
+        <text x="506" y="9"  font-family="Georgia,serif" font-size="9" fill="rgba(255,255,255,0.7)" text-anchor="middle">Monaghan goal</text>
+        <text x="180" y="246" font-family="Georgia,serif" font-size="8" fill="rgba(255,255,255,0.5)" text-anchor="middle">40m arc</text>
+
+        <rect x="185" y="107" width="190" height="20" rx="4" fill="rgba(0,0,0,0.6)"/>
+        <text x="280" y="120" font-family="'Courier New',monospace" font-size="10" fill="#fff" text-anchor="middle">Derry +2  |  Monaghan chasing</text>
+        <rect x="218" y="129" width="124" height="18" rx="4" fill="rgba(0,0,0,0.6)"/>
+        <text id="clk" x="280" y="141" font-family="'Courier New',monospace" font-size="11" font-weight="700" fill="#eab308" text-anchor="middle">00:10 left</text>
+
+        <circle id="sm" cx="74" cy="238" r="6" fill="#eab308" stroke="#a16207" stroke-width="1.2" opacity="0"/>
+        <g id="ann" opacity="0">
+          <line x1="74" y1="225" x2="74" y2="210" stroke="#eab308" stroke-width="1.5" stroke-dasharray="3,3"/>
+          <polygon points="74,204 70,212 78,212" fill="#eab308"/>
+          <text x="74" y="200" font-family="Georgia,serif" font-size="8" fill="#eab308" text-anchor="middle">Derry last touch</text>
+        </g>
+        <rect id="dispute-bg" x="120" y="56" width="320" height="22" rx="4" fill="rgba(180,20,20,0.9)" opacity="0"/>
+        <text id="dispute-txt" x="280" y="71" font-family="'Courier New',monospace" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" opacity="0">Referee signals 2 pts — Derry dispute!</text>
+
+        <!-- Derry players: red -->
+        <circle cx="64"  cy="125" r="9" fill="#b91c1c" stroke="#fff" stroke-width="1.2"/>
+        <circle cx="148" cy="100" r="9" fill="#b91c1c" stroke="#fff" stroke-width="1.2"/>
+        <circle cx="200" cy="152" r="9" fill="#b91c1c" stroke="#fff" stroke-width="1.2"/>
+        <circle cx="245" cy="96"  r="9" fill="#b91c1c" stroke="#fff" stroke-width="1.2"/>
+        <text x="64"  y="128" font-family="Georgia,serif" font-size="7" fill="#fff" text-anchor="middle">DER</text>
+        <text x="148" y="103" font-family="Georgia,serif" font-size="7" fill="#fff" text-anchor="middle">DER</text>
+        <text x="200" y="155" font-family="Georgia,serif" font-size="7" fill="#fff" text-anchor="middle">DER</text>
+        <text x="245" y="99"  font-family="Georgia,serif" font-size="7" fill="#fff" text-anchor="middle">DER</text>
+
+        <!-- Monaghan players: white/navy -->
+        <circle cx="368" cy="125" r="9" fill="#ffffff" stroke="#1e3a5f" stroke-width="1.5"/>
+        <circle cx="318" cy="152" r="9" fill="#ffffff" stroke="#1e3a5f" stroke-width="1.5"/>
+        <circle cx="408" cy="98"  r="9" fill="#ffffff" stroke="#1e3a5f" stroke-width="1.5"/>
+        <text x="368" y="128" font-family="Georgia,serif" font-size="7" fill="#1e3a5f" text-anchor="middle">MON</text>
+        <text x="318" y="155" font-family="Georgia,serif" font-size="7" fill="#1e3a5f" text-anchor="middle">MON</text>
+        <text x="408" y="101" font-family="Georgia,serif" font-size="7" fill="#1e3a5f" text-anchor="middle">MON</text>
+
+        <circle id="ball" cx="280" cy="125" r="7" fill="#F5E642" stroke="#a16207" stroke-width="1.2"
+          style="transition:cx 0.7s cubic-bezier(.4,0,.2,1),cy 0.7s cubic-bezier(.4,0,.2,1)"/>
+      </svg>
+    </div>
+
+    <div class="step-box" id="step-lbl">Step 1 of 5 — Ball in play. Derry lead Monaghan by 2 points with 10 seconds remaining.</div>
+    <div class="ctrl">
+      <button class="btn" onclick="prevStep()">&#8592; Back</button>
+      <button class="btn btn-primary" onclick="nextStep()">Next &#8594;</button>
+      <button class="btn" onclick="resetSteps()" style="margin-left:auto">&#8635; Reset</button>
+    </div>
+    <p style="font-size:12px;color:#9ca3af;font-family:'Courier New',monospace">Click through the incident, then explore the legal arguments in the Arguments tab.</p>
+  </div>
+
+  <!-- ARGUMENTS TAB -->
+  <div id="pane-a" class="pane">
+    <p class="arg-intro">Each argument below is cited to its authoritative source in the GAA Official Guide or the FRC Rule Enhancements. Select any argument to read the full submission — explore in any order.</p>
+
+    <div class="teams-grid">
+      <!-- DERRY panel -->
+      <div class="team-panel">
+        <div class="team-header team-header-d">
+          <div class="crest crest-d" style="width:28px;height:28px;font-size:9px;flex-shrink:0">DER</div>
+          Derry's case
+          <span class="team-stance stance-d">disputing 2 pts</span>
+        </div>
+        <ul class="arg-list">
+          <li class="arg-item"><button class="arg-btn" onclick="showArg('d1')"><span class="arg-num num-d">1</span>The scoring rule is exhaustive — sideline kicks are excluded</button></li>
+          <li class="arg-item"><button class="arg-btn" onclick="showArg('d2')"><span class="arg-num num-d">2</span>The "45" analogy: dead-ball restarts score one point only</button></li>
+          <li class="arg-item"><button class="arg-btn" onclick="showArg('d3')"><span class="arg-num num-d">3</span>Referee authority cannot create scoring entitlements</button></li>
+          <li class="arg-item"><button class="arg-btn" onclick="showArg('d4')"><span class="arg-num num-d">4</span>The hooter protocol condemns, not validates, the score</button></li>
+          <li class="arg-item"><button class="arg-btn" onclick="showArg('d5')"><span class="arg-num num-d">5</span>Monaghan retained the fruits of an error — unjust enrichment</button></li>
+        </ul>
+      </div>
+
+      <!-- MONAGHAN panel -->
+      <div class="team-panel">
+        <div class="team-header team-header-m">
+          <div class="crest crest-m" style="width:28px;height:28px;font-size:9px;flex-shrink:0;background:#fff;color:#1e3a5f">MON</div>
+          Monaghan's case
+          <span class="team-stance stance-m">defending 2 pts</span>
+        </div>
+        <ul class="arg-list">
+          <li class="arg-item"><button class="arg-btn" onclick="showArg('m1')"><span class="arg-num num-m">1</span>The rule text is ambiguous — sideline kicks are not excluded</button></li>
+          <li class="arg-item"><button class="arg-btn" onclick="showArg('m2')"><span class="arg-num num-m">2</span>Referee finality: the orange flag and raised hands are conclusive</button></li>
+          <li class="arg-item"><button class="arg-btn" onclick="showArg('m3')"><span class="arg-num num-m">3</span>The hooter protocol supports the score's validity</button></li>
+          <li class="arg-item"><button class="arg-btn" onclick="showArg('m4')"><span class="arg-num num-m">4</span>Derry cannot benefit from ambiguity they failed to challenge</button></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="detail-panel" id="detail-panel">
+      <div class="detail-header" id="detail-header">
+        <span class="arg-num" id="detail-num"></span>
+        <span class="detail-title" id="detail-title"></span>
+        <button class="close-btn" onclick="closeArg()">close &#10005;</button>
+      </div>
+      <div class="detail-body" id="detail-body"></div>
+    </div>
+  </div>
+
+  <!-- VERDICT TAB -->
+  <div id="pane-v" class="pane">
+    <p class="verdict-intro">You have read the arguments. Derry say the two-point award was <em>ultra vires</em> — the rule does not permit it for a sideline kick. Monaghan say the rule is ambiguous, the referee's award is final, and the score must stand. Who has the better of the argument?</p>
+
+    <div class="vote-grid">
+      <div class="vote-card vote-card-d" id="vcard-d" onclick="castVote('d')" role="button" tabindex="0">
+        <div class="vote-crest vote-crest-d">DER</div>
+        <div class="vote-county vote-county-d">Find for Derry</div>
+        <div class="vote-desc">The two-point rule does not cover sideline kicks. The result stands as it was — Derry win.</div>
+      </div>
+      <div class="vote-card vote-card-m" id="vcard-m" onclick="castVote('m')" role="button" tabindex="0">
+        <div class="vote-crest vote-crest-m">MON</div>
+        <div class="vote-county vote-county-m">Find for Monaghan</div>
+        <div class="vote-desc">The rule is ambiguous, the referee's award is final. Two points stand — Monaghan win in extra time.</div>
+      </div>
+    </div>
+
+    <div class="result-grid" id="result-grid">
+      <div class="result-card result-card-d">
+        <h3>DERRY'S CASE</h3>
+        <div class="bar-track"><div class="bar-fill bar-d" id="bar-d"></div></div>
+        <div class="bar-pct" id="pct-d">—</div>
+        <p>Text is exhaustive. The "45" analogy is decisive. The referee cannot invent scoring entitlements. The original result must stand.</p>
+      </div>
+      <div class="result-card result-card-m">
+        <h3>MONAGHAN'S CASE</h3>
+        <div class="bar-track"><div class="bar-fill bar-m" id="bar-m"></div></div>
+        <div class="bar-pct" id="pct-m">—</div>
+        <p>Ambiguity favours the player. Referee finality is a cornerstone of sporting law. The score and extra time stand.</p>
+      </div>
+    </div>
+
+    <div class="legal-note" id="legal-note" style="display:none">
+      <div class="legal-note-label">LEGAL ANALYSIS</div>
+      <p>In practice, GAA disciplinary bodies would likely apply the Official Guide strictly. The two-point scoring provision in the FRC Rule Enhancements (gaa.ie, January 2025) confines the award to <em>"play or a free"</em> — a sideline kick falls into neither category. The "45" express exclusion further supports a one-point reading. However, if Derry's designated captain did not formally protest before play restarted, the window for challenge may have closed under the principle of referee finality. That procedural dimension is as legally interesting as the substantive question — and underscores why the 2025 rules require urgent clarification on this precise point.</p>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <p>Built for <a href="https://quinference.com" target="_blank">quinference.com</a> &nbsp;|&nbsp; Rule sources: <a href="https://www.gaa.ie/article/football-review-committee-rule-enhancements-explainer" target="_blank">GAA FRC Explainer</a> &nbsp;&amp;&nbsp; <a href="https://www.gaa.ie/the-gaa/rules-regulations" target="_blank">GAA Official Guide 2025</a></p>
+</footer>
+
+<script>
+var curStep = 0;
+var voted = false;
+var votes = { d: 0, m: 0 };
+
+var steps = [
+  { l: "Step 1 of 5 — Ball in play. Derry lead Monaghan by 2 points with 10 seconds remaining.", bx: 280, by: 125, clk: "00:10 left", sm: 0, ann: 0, dis: 0 },
+  { l: "Step 2 of 5 — A Derry player plays the ball. It travels toward Derry's own sideline near their goal.", bx: 118, by: 200, clk: "00:07 left", sm: 0, ann: 0, dis: 0 },
+  { l: "Step 3 of 5 — Ball crosses the sideline. Derry touched it last. Sideline kick awarded to Monaghan.", bx: 74, by: 240, clk: "00:05 left", sm: 1, ann: 1, dis: 0 },
+  { l: "Step 4 of 5 — Monaghan take the sideline kick from near Derry's goal — outside the 40m arc. Ball sails over the bar.", bx: 28, by: 125, clk: "00:03 left", sm: 1, ann: 0, dis: 0 },
+  { l: "Step 5 of 5 — Referee raises TWO hands. Derry immediately dispute it. Is a sideline kick worth 2 points under the 2025 rules?", bx: 22, by: 55, clk: "DISPUTED", sm: 1, ann: 0, dis: 1 }
+];
+
+function applyStep(i) {
+  var s = steps[i];
+  var b = document.getElementById('ball');
+  b.setAttribute('cx', s.bx);
+  b.setAttribute('cy', s.by);
+  var c = document.getElementById('clk');
+  c.textContent = s.clk;
+  c.setAttribute('fill', s.dis ? '#f87171' : '#eab308');
+  document.getElementById('sm').style.opacity = s.sm ? 1 : 0;
+  document.getElementById('ann').style.opacity = s.ann ? 1 : 0;
+  document.getElementById('dispute-bg').style.opacity = s.dis ? 1 : 0;
+  document.getElementById('dispute-txt').style.opacity = s.dis ? 1 : 0;
+  document.getElementById('step-lbl').innerHTML = s.l;
+}
+
+function nextStep() { if (curStep < steps.length - 1) { curStep++; applyStep(curStep); } }
+function prevStep() { if (curStep > 0) { curStep--; applyStep(curStep); } }
+function resetSteps() { curStep = 0; applyStep(0); }
+
+var ruleA = '<div class="rule-cite"><div class="rule-cite-label">Authoritative rule source</div><blockquote>"{q}"</blockquote><div class="rule-source">{s}</div></div>';
+
+function rc(q, s) {
+  return ruleA.replace('{q}', q).replace('{s}', s);
+}
+
+var FRC = 'GAA FRC Rule Enhancements Explainer, gaa.ie, January 2025 — <a href="https://www.gaa.ie/article/football-review-committee-rule-enhancements-explainer" target="_blank">view source</a>';
+var OG  = 'GAA Official Guide Part 2, January 2025 — <a href="https://www.gaa.ie/the-gaa/rules-regulations" target="_blank">view source</a>';
+var FRC2 = 'GAA FRC Interim Report &amp; Central Council Approval, March 2025 — <a href="https://www.gaa.ie/article/frc-recommending-adjustments" target="_blank">view source</a>';
+
+var args = {
+  d1: {
+    side: 'd', num: '1',
+    title: 'The scoring rule is exhaustive — sideline kicks are excluded',
+    body: '<p>The operative scoring rule, as published by the Football Review Committee and ratified by Special Congress in November 2024, defines the two-point score in terms that are exhaustive rather than illustrative. The rule specifies the qualifying acts precisely:</p>' +
+      rc('A ball cleanly kicked from play or a free over the bar from on or outside the arc, and without touching another player on either team, is worth two points.', FRC) +
+      '<p>The phrase <strong>"from play or a free"</strong> is a closed enumeration. Gaelic football, as a codified sport, operates on the principle that what is not expressly permitted is not permitted. A sideline kick is a distinct restart — it has its own rules, its own mechanics, and its own separate treatment in the rulebook. It is not "play" in the open-play sense, and it is manifestly not a "free kick." Where the rulebook intends to include a category of restart, it names it. The absence of sideline kicks from this provision is not an oversight — it is a deliberate exclusion.</p>',
+    close: 'The GAA had every opportunity to include sideline kicks. It chose not to. That choice must be respected, not reversed by implication in the committee room.'
+  },
+  d2: {
+    side: 'd', num: '2',
+    title: 'The "45" analogy: dead-ball restarts score one point only',
+    body: '<p>The internal coherence of the 2025 scoring framework provides the most powerful argument in Derry\'s favour. The rulebook expressly carves out one category of dead-ball restart and assigns it one point only:</p>' +
+      rc('A ball cleanly kicked from play or a free over the bar from on or outside the arc... is worth two points. A \'45\' is worth one point.', FRC) +
+      '<p>The "45" is taken from outside the arc and would otherwise satisfy the mechanical requirements for a two-point score. Yet the drafters expressly excluded it. This demonstrates beyond doubt that they had the category of dead-ball restarts firmly in mind when constructing the scoring hierarchy. A sideline kick occupies the same taxonomic position as a "45": it is a dead-ball restart that is neither open play nor a conventional free kick. By the same logic that assigns one point to the "45", one point attaches to the sideline kick. Monaghan\'s argument from textual silence proves too much — if silence meant two points for sideline kicks, a "45" from outside the arc would also attract two points, contradicting the express provision.</p>',
+    close: 'The 45 analogy is decisive. Same category, same logic, same consequence: one point only. The framework\'s internal structure forecloses Monaghan\'s position entirely.'
+  },
+  d3: {
+    side: 'd', num: '3',
+    title: 'Referee authority cannot create scoring entitlements',
+    body: '<p>The principle of referee finality has well-established limits in sporting governance. It applies to matters of fact and judgment exercised within the referee\'s proper domain — whether a player was fouled, whether a ball crossed the line, whether a challenge was dangerous. It does not, and cannot, extend to the conferral of points that the rules do not authorise. The updated scoring definition makes this clear:</p>' +
+      rc('A two-point score requires the ball to be played "over the bar between the posts… kicked by a player who has at least one foot on or outside the 40m arc and without the ball having been touched by another player."', FRC + ' (as amended, April 2025)') +
+      '<p>This definition describes the mechanics of the kick. It does not expand the qualifying contexts beyond "play or a free." The referee who raises two hands for a sideline kick has not exercised a judgment within their authority — they have purported to award a score category that the rules do not sanction. The orange flag and the raised hands do not transform an erroneous award into a lawful one. To hold otherwise would be to say that a referee who awards five points for a goal makes that award valid by virtue of their in-game authority — a proposition that no governing body could accept.</p>',
+    close: 'Referee finality protects factual judgments. It cannot create scoring entitlements not found in the rulebook. The award was ultra vires regardless of sincerity.'
+  },
+  d4: {
+    side: 'd', num: '4',
+    title: 'The hooter protocol condemns, not validates, the score',
+    body: '<p>Monaghan may seek support from the hooter protocol approved by Central Council in March 2025. Derry submits that this provision, properly read, supports their case rather than Monaghan\'s. The protocol states:</p>' +
+      rc('After the hooter sounds, the end of the first half or full time is signalled by the referee on the next occasion that the ball goes out of play for a score, for a wide or for a sideline kick. If a 45 has been awarded but not taken, before the hooter sounds, the free kick can be taken and, if it results in a score, without any other player touching the ball, that score shall be awarded.', FRC2) +
+      '<p>Observe what this provision does and does not say. It provides expressly that a <strong>45 awarded before the hooter</strong> may be taken and result in a score. It makes no equivalent provision for a sideline kick. The drafters extended this protection to the 45 and to the penalty — categories they named and treated specifically. Their silence on the sideline kick is not ambiguity. It is a deliberate omission that reinforces the subordinate status of the sideline kick as a restart mechanism rather than a scoring opportunity. Furthermore, the provision that the match ends on the next occasion the ball goes out of play <em>for a sideline kick</em> suggests that the appropriate moment for the referee to signal full time was when the ball crossed the sideline — before the kick was taken.</p>',
+    close: 'Express provision for 45s and penalties. Silence on sideline kicks. In the language of statutory interpretation: the express mention of one excludes the other.'
+  },
+  d5: {
+    side: 'd', num: '5',
+    title: 'Monaghan retained the fruits of an error — unjust enrichment',
+    body: '<p>The principle against unjust enrichment operates in both directions. Monaghan seek to retain the benefit of a referee error from which they unambiguously profited. At no point during the game did Monaghan\'s designated captain — whose function under the 2025 rules is specifically to seek clarification of referee decisions — raise any query about the two-point framework as it applied to sideline kicks:</p>' +
+      rc('Teams will nominate a designated player (i.e. captain or his deputy) for the purpose of seeking clarification of a decision made by the referee.', FRC) +
+      '<p>Monaghan competed under the conditions as applied by the referee without demur. They then won in extra time on the strength of an erroneously awarded score. To permit them to retain that victory would confer a windfall on a party who neither raised the issue at the appropriate moment nor suffered any procedural injustice during the game. Derry, by contrast, led legitimately throughout and are entitled to have that result confirmed. The integrity of the competition — and of every competition that follows — demands that scoring entitlements not found in the rules cannot be retained simply because they went unchallenged in the heat of the moment.</p>',
+    close: 'Derry cannot be stripped of a lawful lead because a referee exceeded their authority in the dying seconds. The original result — Derry by two points — must be restored.'
+  },
+  m1: {
+    side: 'm', num: '1',
+    title: 'The rule text is ambiguous — sideline kicks are not excluded',
+    body: '<p>The operative definition of a two-point score, as approved by Special Congress and subsequently refined by Central Council, addresses the mechanics of the kick rather than an exhaustive taxonomy of restart types. The revised definition reads:</p>' +
+      rc('A two-point score requires the ball to be played "over the bar between the posts… kicked by a player who has at least one foot on or outside the 40m arc and without the ball having been touched by another player."', FRC + ' (as amended, April 2025)') +
+      '<p>This definition speaks to <strong>foot position</strong> and <strong>the absence of an intervening touch</strong>. It does not say "from open play or a free only." Monaghan\'s player had one foot on or outside the 40m arc. No other player touched the ball. The mechanical conditions were satisfied. Where a rulebook is genuinely ambiguous, the principle of <em>contra proferentem</em> requires that ambiguity be construed against the drafter — in this case the GAA — and in favour of the party who acted in good faith reliance upon it. Monaghan\'s player took the kick and scored. They cannot now be penalised for the GAA\'s failure to draft an express exclusion where one was required.</p>',
+    close: 'The GAA had every opportunity to state explicitly that sideline kicks are excluded. It did not do so in the operative scoring definition. That failure of drafting cannot be weaponised against Monaghan.'
+  },
+  m2: {
+    side: 'm', num: '2',
+    title: 'Referee finality: the orange flag and raised hands are conclusive',
+    body: '<p>The principle of referee finality is foundational to sporting governance and has been affirmed repeatedly in CAS jurisprudence and by domestic governing bodies across all codes. Under the 2025 rules, the formal acts by which a two-point score is confirmed are codified precisely:</p>' +
+      rc('Referees will signal the score with two hands in the air and the score umpires will wave an orange flag for the two-point score.', FRC) +
+      '<p>Both acts were performed. The referee raised two hands. The umpire waved the orange flag. These are not informal gestures — they are the precise, formal, codified signals by which the 2025 rules confirm a two-point score. To retrospectively strip Monaghan of that score would be to substitute a governing body\'s post-hoc administrative interpretation for the referee\'s in-game adjudication. This cuts directly against the integrity of the competitive process. The referee\'s decision was made within the field of play and within the temporal scope of the game. It is final. If Derry disputed it, the mechanism for challenge was available in the moment — the designated captain should have sought clarification immediately.</p>',
+    close: 'If every marginal or contested scoring decision were subject to reversal in the committee room, the result would not be justice but chaos — with every close game relitigated after the final whistle. That cannot be right.'
+  },
+  m3: {
+    side: 'm', num: '3',
+    title: 'The hooter protocol supports the score\'s validity',
+    body: '<p>Derry argue that the hooter protocol condemns the score. Monaghan submits the opposite: the protocol, properly read, acknowledges that a sideline kick can produce a match-altering score before full time is signalled. The Central Council ruling approved in March 2025 states:</p>' +
+      rc('After the hooter sounds, the end of the first half or full time is signalled by the referee on the next occasion that the ball goes out of play for a score, for a wide or for a sideline kick.', FRC2) +
+      '<p>This provision places the sideline kick in the same terminal category as a score. The drafters understood that a sideline kick, once awarded, might result in a score before the referee signals full time — and they legislated accordingly by making it one of the three events that triggers the referee\'s full-time signal. Had they intended the sideline kick to be a neutral event incapable of producing a match-altering score, they would have signalled full time on the <em>awarding</em> of the sideline kick, not on the ball going out of play for it. The protocol\'s internal logic supports Monaghan\'s position: the kick was taken, the score resulted, and the referee correctly allowed it to stand before signalling full time.</p>',
+    close: 'The rules themselves treat the sideline kick as a moment that can precede a score. Monaghan\'s score was produced before full time was signalled. It must stand.'
+  },
+  m4: {
+    side: 'm', num: '4',
+    title: 'Derry cannot benefit from ambiguity they failed to challenge',
+    body: '<p>The 2025 rules create a specific mechanism for teams to challenge referee decisions in real time. The designated captain — or their deputy — may seek clarification of any decision made by the referee:</p>' +
+      rc('Teams will nominate a designated player (i.e. captain or his deputy) for the purpose of seeking clarification of a decision made by the referee.', FRC) +
+      '<p>Derry did not deploy this mechanism. At the moment the referee raised two hands, Derry\'s designated captain had the right and the opportunity to seek immediate clarification. They did not do so. Play continued, extra time was played, and Monaghan won. Derry now seek to do in the committee room what they failed to do on the pitch — challenge a decision they should have challenged at the appropriate moment. To permit this retrospective challenge would be to subvert the very purpose of the designated captain rule, which exists precisely to resolve such disputes in real time. The principle against unjust enrichment here protects Monaghan, who scored, whose score was formally confirmed, and who won the match in extra time.</p>',
+    close: 'Derry had their moment to challenge. They did not take it. They cannot now seek a windfall from a procedural mechanism they chose not to use on the day.'
+  }
+};
+
+function showArg(id) {
+  var a = args[id];
+  var panel = document.getElementById('detail-panel');
+  var header = document.getElementById('detail-header');
+  header.className = 'detail-header ' + (a.side === 'd' ? 'detail-header-d' : 'detail-header-m');
+  var numEl = document.getElementById('detail-num');
+  numEl.textContent = a.num;
+  numEl.className = 'arg-num ' + (a.side === 'd' ? 'num-d' : 'num-m');
+  document.getElementById('detail-title').textContent = a.title;
+  document.getElementById('detail-body').innerHTML =
+    a.body + '<div class="submission-close">' + a.close + '</div>';
+  panel.classList.add('on');
+  panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+function closeArg() {
+  document.getElementById('detail-panel').classList.remove('on');
+}
+
+function castVote(side) {
+  if (voted) return;
+  voted = true;
+  votes[side]++;
+  var total = votes.d + votes.m;
+  var pd = Math.round(votes.d / total * 100);
+  var pm = 100 - pd;
+  document.getElementById('vcard-d').className = 'vote-card vote-card-d' + (side === 'd' ? ' voted-d' : '');
+  document.getElementById('vcard-m').className = 'vote-card vote-card-m' + (side === 'm' ? ' voted-m' : '');
+  var rg = document.getElementById('result-grid');
+  rg.style.display = 'grid';
+  setTimeout(function () {
+    document.getElementById('bar-d').style.width = pd + '%';
+    document.getElementById('bar-m').style.width = pm + '%';
+  }, 100);
+  document.getElementById('pct-d').textContent = pd + '% find Derry compelling';
+  document.getElementById('pct-m').textContent = pm + '% find Monaghan compelling';
+  document.getElementById('legal-note').style.display = 'block';
+}
+
+function ST(n) {
+  ['p', 'a', 'v'].forEach(function (t) {
+    document.getElementById('pane-' + t).classList.toggle('on', t === n);
+  });
+  document.querySelectorAll('.tab').forEach(function (el, i) {
+    el.classList.toggle('on', ['p', 'a', 'v'][i] === n);
+  });
+}
+
+applyStep(0);
+</script>
+</body>
+</html>
