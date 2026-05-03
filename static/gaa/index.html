@@ -297,9 +297,44 @@
   .vote-crest-d { background: var(--derry); color: #fff; }
   .vote-crest-m { background: var(--monaghan); color: #fff; }
 
+  .vote-card.selected-d { box-shadow: 0 0 0 2px var(--derry); }
+  .vote-card.selected-m { box-shadow: 0 0 0 2px var(--monaghan); }
+  .vote-card.faded { opacity: 0.52; cursor: default; pointer-events: none; }
+
+  .vote-prior-banner {
+    font-size: 13px; color: var(--muted); background: #eef2f7;
+    border: 1px solid #c5d0e0; border-radius: 8px; padding: 10px 14px; margin-bottom: 14px;
+  }
+
+  .vote-form-wrap {
+    border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px;
+    background: var(--surface); margin: 18px 0;
+  }
+  .vote-form-lead { font-size: 13px; color: var(--muted); margin-bottom: 14px; line-height: 1.55; }
+  .vote-fields { display: flex; flex-direction: column; gap: 14px; }
+  .vote-label { display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: var(--text); }
+  .vote-label-t { font-weight: 600; color: var(--muted); font-size: 12px; }
+  .vote-input, .vote-textarea {
+    font-family: Georgia, 'Times New Roman', serif; font-size: 14px;
+    border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px;
+    background: #fff; color: var(--text); width: 100%;
+  }
+  .vote-textarea { resize: vertical; min-height: 88px; line-height: 1.55; }
+  .vote-submit {
+    margin-top: 14px; padding: 12px 22px; font-size: 15px; font-weight: 700;
+    font-family: Georgia, serif; border: none; border-radius: 8px; cursor: pointer;
+    background: var(--pitch); color: #fff;
+  }
+  .vote-submit:hover { background: var(--pitch-alt); }
+  .vote-submit:disabled { opacity: 0.55; cursor: not-allowed; }
+  .vote-err { color: #b91c1c; font-size: 13px; margin-top: 10px; min-height: 1.2em; }
+  .vote-thanks { font-size: 14px; color: var(--pitch); font-weight: 700; margin: 12px 0 6px; }
+  .vote-api-note { font-size: 12px; color: #92400e; background: var(--rule-bg);
+    border: 1px solid #fde68a; border-radius: 8px; padding: 10px 12px; margin-bottom: 12px; }
+
   .result-grid {
     display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr);
-    gap: 14px; margin-top: 20px; display: none;
+    gap: 14px; margin-top: 8px;
   }
   .result-card {
     border: 1px solid var(--border); border-radius: 10px; padding: 16px;
@@ -521,20 +556,39 @@
 
   <!-- VERDICT TAB -->
   <div id="pane-v" class="pane">
-    <p class="verdict-intro">You have read the arguments. Derry say the two-point award was <em>ultra vires</em> — the rule does not permit it for a sideline kick. Monaghan say the rule is ambiguous, the referee's award is final, and the score must stand. Who has the better of the argument?</p>
+    <p class="verdict-intro">You have read the arguments. Derry say the two-point award was <em>ultra vires</em> — the rule does not permit it for a sideline kick. Monaghan say the rule is ambiguous, the referee's award is final, and the score must stand. Who has the better of the argument? Tap a side, optionally add your name or view, then submit — votes are counted for everyone who opens this page.</p>
+
+    <p id="vote-prior-banner" class="vote-prior-banner" hidden>You already submitted a verdict from this browser.</p>
 
     <div class="vote-grid">
-      <div class="vote-card vote-card-d" id="vcard-d" onclick="castVote('d')" role="button" tabindex="0">
+      <div class="vote-card vote-card-d" id="vcard-d" onclick="selectVote('d')" onkeydown="voteCardKey(event,'d')" role="button" tabindex="0">
         <div class="vote-crest vote-crest-d">DER</div>
         <div class="vote-county vote-county-d">Find for Derry</div>
         <div class="vote-desc">The two-point rule does not cover sideline kicks. The result stands as it was — Derry win.</div>
       </div>
-      <div class="vote-card vote-card-m" id="vcard-m" onclick="castVote('m')" role="button" tabindex="0">
+      <div class="vote-card vote-card-m" id="vcard-m" onclick="selectVote('m')" onkeydown="voteCardKey(event,'m')" role="button" tabindex="0">
         <div class="vote-crest vote-crest-m">MON</div>
         <div class="vote-county vote-county-m">Find for Monaghan</div>
         <div class="vote-desc">The rule is ambiguous, the referee's award is final. Two points stand — Monaghan win in extra time.</div>
       </div>
     </div>
+
+    <div id="vote-form-wrap" class="vote-form-wrap" hidden>
+      <p class="vote-form-lead">Optional — only the site owner can read these in the vote log (not shown to other visitors).</p>
+      <div class="vote-fields">
+        <label class="vote-label"><span class="vote-label-t">Name or initials (optional)</span>
+          <input type="text" id="voter-name" class="vote-input" maxlength="120" autocomplete="name" placeholder="Leave blank to stay anonymous" />
+        </label>
+        <label class="vote-label"><span class="vote-label-t">Your view (optional)</span>
+          <textarea id="voter-opinion" class="vote-textarea" maxlength="2000" rows="4" placeholder="Why you lean that way — rules, referee, fairness…"></textarea>
+        </label>
+      </div>
+      <button type="button" class="vote-submit" id="btn-submit-vote" onclick="submitVote()">Submit verdict</button>
+      <p class="vote-err" id="vote-err" role="alert"></p>
+    </div>
+
+    <p class="vote-thanks" id="vote-thanks" hidden>Thank you — your verdict has been recorded.</p>
+    <p class="vote-api-note" id="vote-api-note" hidden></p>
 
     <div class="result-grid" id="result-grid">
       <div class="result-card result-card-d">
@@ -564,9 +618,10 @@
 </footer>
 
 <script>
+var VOTE_URL = '/.netlify/functions/gaa-vote';
 var curStep = 0;
-var voted = false;
-var votes = { d: 0, m: 0 };
+var pendingSide = null;
+var hasSubmittedThisBrowser = false;
 
 var steps = [
   { l: "Step 1 of 5 — Ball in play. Derry lead Monaghan by 2 points with 10 seconds remaining.", bx: 280, by: 125, clk: "00:10 left", sm: 0, ann: 0, dis: 0 },
@@ -699,24 +754,131 @@ function closeArg() {
   document.getElementById('detail-panel').classList.remove('on');
 }
 
-function castVote(side) {
-  if (voted) return;
-  voted = true;
-  votes[side]++;
-  var total = votes.d + votes.m;
-  var pd = Math.round(votes.d / total * 100);
-  var pm = 100 - pd;
-  document.getElementById('vcard-d').className = 'vote-card vote-card-d' + (side === 'd' ? ' voted-d' : '');
-  document.getElementById('vcard-m').className = 'vote-card vote-card-m' + (side === 'm' ? ' voted-m' : '');
-  var rg = document.getElementById('result-grid');
-  rg.style.display = 'grid';
+function voteCardKey(ev, side) {
+  if (ev.key === 'Enter' || ev.key === ' ') {
+    ev.preventDefault();
+    selectVote(side);
+  }
+}
+
+function applyBars(d, m) {
+  var total = (Number(d) || 0) + (Number(m) || 0);
+  var pd = total === 0 ? 0 : Math.round((Number(d) || 0) / total * 100);
+  var pm = total === 0 ? 0 : 100 - pd;
   setTimeout(function () {
     document.getElementById('bar-d').style.width = pd + '%';
     document.getElementById('bar-m').style.width = pm + '%';
-  }, 100);
-  document.getElementById('pct-d').textContent = pd + '% find Derry compelling';
-  document.getElementById('pct-m').textContent = pm + '% find Monaghan compelling';
-  document.getElementById('legal-note').style.display = 'block';
+  }, 80);
+  if (total === 0) {
+    document.getElementById('pct-d').textContent = 'No verdicts yet — be the first.';
+    document.getElementById('pct-m').textContent = 'Percentages appear after the first vote.';
+  } else {
+    document.getElementById('pct-d').textContent = pd + '% find Derry compelling (' + d + ' of ' + total + ')';
+    document.getElementById('pct-m').textContent = pm + '% find Monaghan compelling (' + m + ' of ' + total + ')';
+  }
+}
+
+function markCardsAfterVote(side) {
+  var elD = document.getElementById('vcard-d');
+  var elM = document.getElementById('vcard-m');
+  elD.className = 'vote-card vote-card-d' + (side === 'd' ? ' voted-d' : ' faded');
+  elM.className = 'vote-card vote-card-m' + (side === 'm' ? ' voted-m' : ' faded');
+  elD.removeAttribute('onclick');
+  elM.removeAttribute('onclick');
+  elD.removeAttribute('onkeydown');
+  elM.removeAttribute('onkeydown');
+}
+
+function selectVote(side) {
+  if (hasSubmittedThisBrowser) return;
+  pendingSide = side;
+  document.getElementById('vcard-d').className = 'vote-card vote-card-d' + (side === 'd' ? ' selected-d' : '');
+  document.getElementById('vcard-m').className = 'vote-card vote-card-m' + (side === 'm' ? ' selected-m' : '');
+  document.getElementById('vote-form-wrap').hidden = false;
+  document.getElementById('vote-err').textContent = '';
+}
+
+function submitVote() {
+  if (hasSubmittedThisBrowser) return;
+  if (!pendingSide) {
+    document.getElementById('vote-err').textContent = 'Choose Find for Derry or Find for Monaghan first.';
+    return;
+  }
+  var btn = document.getElementById('btn-submit-vote');
+  btn.disabled = true;
+  document.getElementById('vote-err').textContent = '';
+  var name = document.getElementById('voter-name').value;
+  var opinion = document.getElementById('voter-opinion').value;
+  fetch(VOTE_URL, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ vote: pendingSide, name: name, opinion: opinion })
+  })
+    .then(function (r) {
+      return r.text().then(function (t) {
+        var j = {};
+        try {
+          j = t ? JSON.parse(t) : {};
+        } catch (e) {}
+        return { ok: r.ok, status: r.status, j: j };
+      });
+    })
+    .then(function (x) {
+      if (!x.ok) {
+        var msg = (x.j && (x.j.message || x.j.error)) || 'Could not save your verdict.';
+        throw new Error(msg);
+      }
+      try {
+        localStorage.setItem(
+          'gaa_sideline_verdict_v1',
+          JSON.stringify({ vote: pendingSide, ts: new Date().toISOString() })
+        );
+      } catch (e) {}
+      hasSubmittedThisBrowser = true;
+      applyBars(x.j.d, x.j.m);
+      markCardsAfterVote(pendingSide);
+      document.getElementById('vote-form-wrap').hidden = true;
+      document.getElementById('vote-thanks').hidden = false;
+      document.getElementById('legal-note').style.display = 'block';
+      pendingSide = null;
+    })
+    .catch(function (err) {
+      document.getElementById('vote-err').textContent = err.message || 'Something went wrong. Try again shortly.';
+      btn.disabled = false;
+    });
+}
+
+function initVerdictVotes() {
+  try {
+    var saved = localStorage.getItem('gaa_sideline_verdict_v1');
+    if (saved) {
+      var o = JSON.parse(saved);
+      if (o && (o.vote === 'd' || o.vote === 'm')) {
+        hasSubmittedThisBrowser = true;
+        document.getElementById('vote-prior-banner').hidden = false;
+        markCardsAfterVote(o.vote);
+        document.getElementById('vote-form-wrap').hidden = true;
+        document.getElementById('legal-note').style.display = 'block';
+      }
+    }
+  } catch (e) {}
+
+  fetch(VOTE_URL)
+    .then(function (r) {
+      if (!r.ok) throw new Error('bad status');
+      return r.json();
+    })
+    .then(function (data) {
+      if (data && typeof data.d === 'number' && typeof data.m === 'number') {
+        applyBars(data.d, data.m);
+      }
+    })
+    .catch(function () {
+      var n = document.getElementById('vote-api-note');
+      n.textContent =
+        'Live totals could not be loaded (network or the vote service is still deploying). You can still submit — counts update after a successful save.';
+      n.hidden = false;
+    });
 }
 
 function ST(n) {
@@ -729,6 +891,7 @@ function ST(n) {
 }
 
 applyStep(0);
+initVerdictVotes();
 </script>
 </body>
 </html>

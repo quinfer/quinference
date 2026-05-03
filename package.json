@@ -1,0 +1,7 @@
+{
+  "name": "quinference-site",
+  "private": true,
+  "dependencies": {
+    "@netlify/blobs": "^8.2.0"
+  }
+}
