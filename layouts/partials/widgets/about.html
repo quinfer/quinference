@@ -22,19 +22,24 @@
 {{ $person := $person_page.Params }}
 {{ $avatar_shape := site.Params.avatar.shape | default "circle" }}
 
-{{/* Canonical default: avatar-default*, then avatar.jpg/jpeg/png/gif/webp, then first *avatar* match */}}
-{{ $canonical := $person_page.Resources.GetMatch "avatar-default*" }}
+{{/* Only processable still image types — explicitly excludes GIF and animated formats */}}
+{{ $processable := slice "jpg" "jpeg" "png" "webp" "tif" "tiff" "bmp" }}
+
+{{/* Canonical default: avatar-default.{jpg,jpeg,png,webp}, then avatar.{jpg,jpeg,png,webp} */}}
+{{ $canonical := $person_page.Resources.GetMatch "avatar-default.jpg" }}
+{{ if not $canonical }}{{ $canonical = $person_page.Resources.GetMatch "avatar-default.jpeg" }}{{ end }}
+{{ if not $canonical }}{{ $canonical = $person_page.Resources.GetMatch "avatar-default.png" }}{{ end }}
+{{ if not $canonical }}{{ $canonical = $person_page.Resources.GetMatch "avatar-default.webp" }}{{ end }}
 {{ if not $canonical }}{{ $canonical = $person_page.Resources.GetMatch "avatar.jpg" }}{{ end }}
 {{ if not $canonical }}{{ $canonical = $person_page.Resources.GetMatch "avatar.jpeg" }}{{ end }}
 {{ if not $canonical }}{{ $canonical = $person_page.Resources.GetMatch "avatar.png" }}{{ end }}
-{{ if not $canonical }}{{ $canonical = $person_page.Resources.GetMatch "avatar.gif" }}{{ end }}
 {{ if not $canonical }}{{ $canonical = $person_page.Resources.GetMatch "avatar.webp" }}{{ end }}
-{{ if not $canonical }}{{ $canonical = ($person_page.Resources.ByType "image").GetMatch "*avatar*" }}{{ end }}
 
-{{/* Extra portraits: avatar-alt-prof.jpg, avatar-alt-punk.png, … (any image type) */}}
+{{/* Extra portraits: avatar-alt-*.{jpg,jpeg,png,webp} only — GIF and other animated formats excluded */}}
 {{ $alts := slice }}
 {{ range sort ($person_page.Resources.ByType "image") "Name" "asc" }}
-  {{ if strings.HasPrefix (lower .Name) "avatar-alt-" }}
+  {{ $ext := lower (path.Ext .Name) | strings.TrimPrefix "." }}
+  {{ if and (strings.HasPrefix (lower .Name) "avatar-alt-") (in $processable $ext) }}
     {{ $alts = $alts | append . }}
   {{ end }}
 {{ end }}
