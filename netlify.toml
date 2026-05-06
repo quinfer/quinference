@@ -18,3 +18,24 @@ command = 'hugo -F -b $DEPLOY_PRIME_URL'
 [context.production]
 [context.production.environment]
 HUGO_ENV = 'production'
+
+# Former standalone sections merged into /research/
+[[redirects]]
+  from = "/publications"
+  to = "/research/"
+  status = 301
+
+[[redirects]]
+  from = "/publications/"
+  to = "/research/"
+  status = 301
+
+[[redirects]]
+  from = "/working_papers"
+  to = "/research/"
+  status = 301
+
+[[redirects]]
+  from = "/working_papers/"
+  to = "/research/"
+  status = 301

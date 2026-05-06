@@ -4,15 +4,9 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Working Papers
-    url: 'working_papers'
-    weight: 10
-  - name: Publications
-    url: 'publications'
-    weight: 20
-  - name: Research Activity
+  - name: Research
     url: 'research'
-    weight: 25
+    weight: 15
   - name: Teaching
     url: 'teaching'
     weight: 30
@@ -31,4 +25,3 @@ main:
 #  - name: CV
 #    url: uploads/resume.pdf
 #    weight: 70
-

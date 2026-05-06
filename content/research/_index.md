@@ -1,28 +1,54 @@
-## Funded Research Activity and Knowledge Transfer
+---
+title: Research & publications
 
-|**Title**|**Areas**|**Funding Body**|**Funding Amount**|**Date Funding Received**|**Duration**|	
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|*E.S.G fair value analytics platform: using state-of-the-art financial data science and business analytics to an fair-value ESG prediction engine*|Financial machine learning, bayesian inference, Natural language processing, econometrics, computational statistics|Research Associates, Innovate UK|£173,000|2022| 2 years|
-|*Anomaly detection of large heterogeneous trading transaction and commmunication data*|Unsupervised and supervised machine learning, Natural language processing, Financial econometrics, financial data science, econometric,AI, machine learning|Global capital markets firm| £945,000 |2021 |3 years project|
-|*Financial Tail Risk Analytics, AI and financial machine learning*|Financial econometrics, financial data science, econometric,AI, machine learning,Value at Risk, capital market regulation|FundAxis Ltd, Innovate UK|£173,000| 2022|3 years|
-|*AI and Advanced Retail Analytics*|AI and machinel learning, retail economics|Pearlai Ltd, Innovate UK|£165,000|08/2018|3 years|
-|*How AI innovation affect a highly valued financial service provision experience*|financial technology, AI and machine learning, financial services|NI Department of the Economy Co-operative Award in Science and Technology PhD studentship|£70,000|09/2021|3 years|
-|*Demand Forecasting of Natural Gas*|Statistical forecasting,  Energy Economics|Phoenix Natural Gas Ltd|£10,000|01/2014|18 months|
-|*Landscape Review of Northern Irish credit unions*|Cooperative banking, development economics, Survey statistical analytics|Department of the Economy & Depart of Argiculture, Enviromental and Rural Affairs|£32,000|10/2016|2 years|
-|*Predictive Retail Analytics Overview*|AI and machine learning, retail economics, statistics|Pearlai Ltd, Invest NI|£5000|3/2018|3 months|
-|*AI and Web Analytics for Price Comparison*|Web scrapping, computer vision,AI, machine learning, natural language processing|Invest NI|£5000|05/2019|3 months|
-|*Value at Risk modelling using financial machine learning*|Financial econometrics and machine learning, financial data science,value at risk, capital market regulation|FundAxis Ltd, Invest NI|£5000|06/2021|3 months|
-|*Stakeholder attitudes to fiscal policy change*|Regional economics, non-probabilistic survey statistics, policy evaluation analytics|Institute of Directors, KPMG,Centre for Irish Business Economics and Policy|£3,500|10/2016|12 months|
+view: 1
 
+header:
+  caption: ""
+  image: ""
+---
 
-## Ongoing research projects
+This page is a **short overview**. For a dated, complete record (peer-reviewed papers, software, teaching publications, and CV downloads), use the **[résumé site](https://quinfer.github.io/resume/)** and **[ORCID](https://orcid.org/0000-0002-8637-9060)**.
 
-| **Title**| **Areas**| **Co-investigators**| **Potential output**|                                             
-| --- | --- | --- | -- |
-|*Stock market anomaly detection using deep and shallow learning*| Unsupervised and semi-supervised ML, market microstructure|Alan Hanna, Paul Miller, Liu Weiler (Visiting PhD Student)| 2 4* ABS papers|
-| *Teaching data science in the age of financial technology*| Data science, financial machine learning, student development| Tony Klien |1 online PG certificate + 1 3* ABS publication|
-| *Credit Easing Programs and ETF activity* | Exchange-traded funds, financial machine learning, quantitative easing, markovian switching vector autoregressive models, Bayesian inference | Lisa Sheenan(Queen's University Belfast), Lisha Li(Southwestern University of Economics and Finance) | 2 4* ABS papers|
-| *Market Expectations and Mangerial Turnover: Evidence from a Frequent Feedback Market*     | AI, causal inference and machine learning, sports economics, labour economics | Ronan Gallagher (Edinburgh Business School)                  | 1 x 3* ABS papers                                            |
-| *Implications of Basel III for Chinese banking*              | banking, financial regulation                                | Lisa Sheenan, Veronica Zhang (PhD Candidate, Queen's University Belfast) | 3 x 3-4* ABS papers                                          |
-| *Financial machine learning and UK asset pricing*            | Explainable AI(XAI), econometrics and machine learning       | Gareth Campbell, Ronan Gallagher, Colm Kelly (PhD Candidate, Queen's University Belfast) | 3 x 3-4* ABS papers                                          |
-| *Bayesian inference in systemic risk and regulatory compliance* | Bayesian tail risk probability modelling, capital regulation, European banking. | Barbara Casu (Bayes Business School (formerly Cass)), Rym Ayadi Bayes Business School (formerly Cass), Sami Ben Naceur (IMF), and Ronan Gallagher | 1 x 4* ABS paper (*Journal of Business and Economics statistics*) 1 x IMF publication |
+My work sits where **finance, statistics, and trustworthy machine learning** meet: markets and institutions, risk, and evidence that can stand up in operational and regulatory settings. I collaborate across disciplines and with industry, and I try to keep assumptions explicit and claims proportionate to the data.
+
+## Selected peer-reviewed work
+
+A few representative papers (venues and links as on the résumé; the résumé list is authoritative if anything differs):
+
+- Liu et al. (2024). *Evolutionary multi-objective optimisation for large-scale portfolio selection with both random and uncertain returns.* **IEEE Transactions on Evolutionary Computation** (ABS4).
+- Quinn, Gallagher & Kuosmanen (2023). *Lurking in the shadows: The impact of CO₂ emissions target setting on carbon pricing in the Kyoto agreement period.* [**Energy Economics**](https://www.sciencedirect.com/science/article/pii/S0140988322004674).
+- McKillop, Liu, Quinn & Peng (forthcoming). *Modelling and predicting credit union failures.* **International Journal of Forecasting**.
+- Bouri, Quinn, Sheenan & Tang (2024). *Investigating extreme linkage topology in the aerospace and defence industry.* **International Review of Financial Analysis**.
+- Liu, Papailias & Quinn (2021). *Direction-of-change forecasting in commodity futures markets.* **International Review of Financial Analysis**.
+- Gallagher & Quinn (2020). *Regulatory own goals: The unintended consequences of economic regulation in professional football.* **European Sport Management Quarterly**.
+
+## Working papers and preprints
+
+- Quinn (2023). *Explaining AI in finance: Past, present, prospects.* [arXiv:2306.02773](https://doi.org/10.48550/arXiv.2306.02773).
+- Quinn (2022). *Teaching open science analytics in the age of financial technology.* [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4019430).
+- Kearney, Quinn & Sketch (2021). *How deep is your learning? Machine learning stories from the enchanted predictability forest of UK firm value.*
+- Casu, Ayadi, Ben Naceur & Gallagher. *Herding to comply: Hierarchical systemic risk consequences of capital policy actions in Europe.* (IMF-related pipeline; see résumé for status.)
+- Gallagher & Kuosmanen. *Lurking in the shadows: The impact of emissions target setting on carbon pricing and environmental efficiency.* (Working paper series; journal version above.)
+
+## Funded research and knowledge transfer
+
+Recent and representative funded work (amounts and dates as recorded at award; detail on the résumé where updated):
+
+- **ESG fair-value analytics** — financial data science, NLP, econometrics (Research Associates / Innovate UK, £173k, 2022, 2 years).
+- **Anomaly detection** on large heterogeneous trading and communication data — ML and econometrics (global capital markets firm, £945k, 2021, 3 years).
+- **Financial tail risk analytics** — AI and machine learning for VaR and regulation (FundAxis / Innovate UK, £173k, 2022, 3 years).
+- **AI and advanced retail analytics** (Pearl AI / Innovate UK, £165k, from 2018, 3 years).
+- **PhD studentship** — AI innovation and financial services (NI Department for the Economy CAST award, £70k, 2021, 3 years).
+- **Natural gas demand forecasting** (Phoenix Natural Gas, £10k, 2014, 18 months).
+- **Northern Ireland credit unions landscape review** (DfE and DAERA, £32k, 2016, 2 years).
+- **Invest NI** short commissions — predictive retail analytics overview; AI and web analytics for price comparison; VaR modelling with financial machine learning (several £5k projects, 2018–2021).
+- **Stakeholder attitudes to fiscal policy change** (IoD, KPMG, CIBEP, £3.5k, 2016, 12 months).
+
+## Ongoing projects (summary)
+
+Themes include **market anomaly detection** (deep and shallow learning, microstructure), **teaching data science in FinTech**, **credit easing and ETF activity**, **managerial turnover and feedback markets** (with Ronan Gallagher), **Basel III and Chinese banking** (with Lisa Sheenan and collaborators), **financial machine learning and UK asset pricing** (explainable AI, with Gareth Campbell, Ronan Gallagher, and PhD collaborators), and **Bayesian systemic risk and regulatory compliance** (with Barbara Casu, Rym Ayadi, Sami Ben Naceur, and Ronan Gallagher). For current outputs and venues, see the **[résumé](https://quinfer.github.io/resume/)**.
+
+## Software
+
+The **fml** R package (financial machine learning) is listed on Zenodo and in the résumé software section: [record 6379925](https://zenodo.org/record/6379925).
