@@ -2,13 +2,13 @@
 title: Barry Quinn
 superuser: true
 
-role: Professor of Finance & Financial Technology — Director, Centre for Finance and Responsible Technology
+role: Professor of Finance & Financial Technology, Director, Centre for Finance and Responsible Technology
 
 organizations:
 - name: Ulster University Business School
   url: "https://www.ulster.ac.uk/faculties/ulster-university-business-school"
 
-bio: "Barry"
+bio: "Professor of Finance & Financial Technology. I work on trustworthy AI, statistics, and the honest use of evidence in markets and regulation."
 
 interests:
 - Trustworthy AI in finance
@@ -52,4 +52,6 @@ social:
   link: https://quinfer.github.io/resume/
 ---
 
-I help teach students to become more prepared for the future.  I teach them important skills like experimenting and looking at data to make better decisions.  I teach them things that will help them get a job, be strong and brave, be humble, and be curious about the world.  I help them learn about numbers and how to use technology for finance and data science.  I do research to stay curious, humble, learn new things, and to help people make smart decisions about finance and other topics.  I teach and research in advanced topics like statistics, computer science, and econometrics.
+I help students prepare for a future shaped by data and technology, teaching them to experiment, to read evidence carefully, and to make decisions they can stand over. I want them to finish their courses able to do the work, but also curious, honest about what they don't yet know, and willing to ask hard questions.
+
+My own research sits at the meeting point of finance, statistics, and trustworthy machine learning, looking at markets, risk, and how algorithms behave when they meet regulation. I try to do it the way I teach it: assumptions made explicit, uncertainty taken seriously, and claims kept proportionate to what the evidence will bear.
