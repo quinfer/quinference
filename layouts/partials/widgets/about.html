@@ -1,8 +1,6 @@
 {{/*
-  Portrait shuffle (About widget only):
-  - Default: avatar-default*, else avatar.jpg / .jpeg / .png / .gif / .webp, else first *avatar* match.
-  - Extras: any page resource whose filename starts with "avatar-alt-" (e.g. avatar-alt-punk.jpg).
-  - "Shuffle look" appears only when there are 2+ images in the pool.
+  About widget — static portrait only (no shuffle).
+  Priority: avatar-default.{jpg,jpeg,png,webp} → avatar.{jpg,jpeg,png,webp} → first *avatar* match.
 */}}
 {{ $ := .root }}
 {{ $page := .page }}
@@ -22,46 +20,15 @@
 {{ $person := $person_page.Params }}
 {{ $avatar_shape := site.Params.avatar.shape | default "circle" }}
 
-{{/* Only processable still image types — explicitly excludes GIF and animated formats */}}
-{{ $processable := slice "jpg" "jpeg" "png" "webp" "tif" "tiff" "bmp" }}
-
-{{/* Canonical default: avatar-default.{jpg,jpeg,png,webp}, then avatar.{jpg,jpeg,png,webp} */}}
-{{ $canonical := $person_page.Resources.GetMatch "avatar-default.jpg" }}
-{{ if not $canonical }}{{ $canonical = $person_page.Resources.GetMatch "avatar-default.jpeg" }}{{ end }}
-{{ if not $canonical }}{{ $canonical = $person_page.Resources.GetMatch "avatar-default.png" }}{{ end }}
-{{ if not $canonical }}{{ $canonical = $person_page.Resources.GetMatch "avatar-default.webp" }}{{ end }}
-{{ if not $canonical }}{{ $canonical = $person_page.Resources.GetMatch "avatar.jpg" }}{{ end }}
-{{ if not $canonical }}{{ $canonical = $person_page.Resources.GetMatch "avatar.jpeg" }}{{ end }}
-{{ if not $canonical }}{{ $canonical = $person_page.Resources.GetMatch "avatar.png" }}{{ end }}
-{{ if not $canonical }}{{ $canonical = $person_page.Resources.GetMatch "avatar.webp" }}{{ end }}
-
-{{/* Extra portraits: avatar-alt-*.{jpg,jpeg,png,webp} only — GIF and other animated formats excluded */}}
-{{ $alts := slice }}
-{{ range sort ($person_page.Resources.ByType "image") "Name" "asc" }}
-  {{ $ext := lower (path.Ext .Name) | strings.TrimPrefix "." }}
-  {{ if and (strings.HasPrefix (lower .Name) "avatar-alt-") (in $processable $ext) }}
-    {{ $alts = $alts | append . }}
-  {{ end }}
-{{ end }}
-
-{{ $pool := slice }}
-{{ $defName := "" }}
-{{ if $canonical }}
-  {{ $defName = $canonical.Name }}
-  {{ $pool = $pool | append $canonical }}
-  {{ range $alts }}
-    {{ if ne .Name $defName }}
-      {{ $pool = $pool | append . }}
-    {{ end }}
-  {{ end }}
-{{ else if gt (len $alts) 0 }}
-  {{ $pool = $alts }}
-{{ end }}
-
-{{ $urls := slice }}
-{{ range $pool }}
-  {{ $urls = $urls | append ((.Fill "270x270 Center").RelPermalink) }}
-{{ end }}
+{{ $avatar := $person_page.Resources.GetMatch "avatar-default.jpg" }}
+{{ if not $avatar }}{{ $avatar = $person_page.Resources.GetMatch "avatar-default.jpeg" }}{{ end }}
+{{ if not $avatar }}{{ $avatar = $person_page.Resources.GetMatch "avatar-default.png" }}{{ end }}
+{{ if not $avatar }}{{ $avatar = $person_page.Resources.GetMatch "avatar-default.webp" }}{{ end }}
+{{ if not $avatar }}{{ $avatar = $person_page.Resources.GetMatch "avatar.jpg" }}{{ end }}
+{{ if not $avatar }}{{ $avatar = $person_page.Resources.GetMatch "avatar.jpeg" }}{{ end }}
+{{ if not $avatar }}{{ $avatar = $person_page.Resources.GetMatch "avatar.png" }}{{ end }}
+{{ if not $avatar }}{{ $avatar = $person_page.Resources.GetMatch "avatar.webp" }}{{ end }}
+{{ if not $avatar }}{{ $avatar = ($person_page.Resources.ByType "image").GetMatch "*avatar*" }}{{ end }}
 
 <!-- About widget -->
 <div class="row">
@@ -70,26 +37,9 @@
 
       {{ if site.Params.avatar.gravatar }}
       <img class="avatar {{ if eq $avatar_shape "square" }}avatar-square{{ else }}avatar-circle{{ end }}" src="https://s.gravatar.com/avatar/{{ md5 $person.email }}?s=270')" alt="{{ $person_page.Title }}">
-      {{ else if gt (len $pool) 0 }}
-        {{ $first := index $pool 0 }}
-        {{ $firstImg := $first.Fill "270x270 Center" }}
-        <img id="profile-avatar-img" class="avatar {{ if eq $avatar_shape "square" }}avatar-square{{ else }}avatar-circle{{ end }}" src="{{ $firstImg.RelPermalink }}" width="270" height="270" alt="{{ $person_page.Title }}">
-        {{ if gt (len $pool) 1 }}
-        <button type="button" class="avatar-shuffle-btn" id="profile-avatar-shuffle" aria-label="Show another portrait">Shuffle look</button>
-        <script>
-        (function () {
-          var urls = {{ $urls | jsonify | safeHTML }};
-          var i = 0;
-          var img = document.getElementById('profile-avatar-img');
-          var btn = document.getElementById('profile-avatar-shuffle');
-          if (!img || !btn || !urls || urls.length < 2) return;
-          btn.addEventListener('click', function () {
-            i = (i + 1) % urls.length;
-            img.src = urls[i];
-          });
-        })();
-        </script>
-        {{ end }}
+      {{ else if $avatar }}
+      {{ $avatar_image := $avatar.Fill "270x270 Center" }}
+      <img class="avatar {{ if eq $avatar_shape "square" }}avatar-square{{ else }}avatar-circle{{ end }}" src="{{ $avatar_image.RelPermalink }}" alt="{{ $person_page.Title }}">
       {{ end }}
 
       <div class="portrait-title">
@@ -132,7 +82,6 @@
   </div>
   <div class="col-12 col-lg-8">
 
-    {{/* Only display widget title in explicit instances of about widget, not in author pages. */}}
     {{ if and $page.Params.widget $page.Title }}<h1>{{ $page.Title | markdownify | emojify }}</h1>{{ end }}
 
     <div class="article-style">
