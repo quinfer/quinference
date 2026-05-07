@@ -39,3 +39,13 @@ HUGO_ENV = 'production'
   from = "/working_papers/"
   to = "/research/"
   status = 301
+
+[[redirects]]
+  from = "/qrap"
+  to = "/teaching/#teaching-innovations-archived-from-qub"
+  status = 301
+
+[[redirects]]
+  from = "/qrap/"
+  to = "/teaching/#teaching-innovations-archived-from-qub"
+  status = 301

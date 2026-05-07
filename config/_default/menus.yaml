@@ -10,9 +10,6 @@ main:
   - name: Teaching
     url: 'teaching'
     weight: 30
-  - name: Q-RaP
-    url: 'qrap'
-    weight: 40
   - name: QSMF
     url: 'smf'
     weight: 50

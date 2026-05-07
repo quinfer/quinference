@@ -12,43 +12,62 @@ This page is a **short overview**. For a dated, complete record (peer-reviewed p
 
 My work sits where **finance, statistics, and trustworthy machine learning** meet: markets and institutions, risk, and evidence that can stand up in operational and regulatory settings. I collaborate across disciplines and with industry, and I try to keep assumptions explicit and claims proportionate to the data.
 
+## Methodological themes
+
+Three strands recur across my research programme:
+
+1. **Trustworthy machine learning for market integrity and risk** — representation learning for detecting market manipulation (self-supervised frameworks, signal amplification for rare events, transformer-based sentiment models for crash-risk prediction). The methodological commitment is that model performance and model trustworthiness are separable properties, and both must be evidenced before deployment in operational or regulatory settings.
+
+2. **Computer vision for socio-economic measurement** — using vision models on real-world imagery to produce auditable indicators (geospatial vehicle-crime modeling with street-level features; hierarchical flag classification for cultural-symbol monitoring). These pipelines are treated as measurement instruments and evaluated on measurement-science grounds, not on benchmark accuracy alone.
+
+3. **Causal and statistical evidence for governance and regulation** — innovation signals and strategic exits in computational approaches to financial regulation; ownership dynamics, risk, and regulation in Chinese banking; collaborative doctoral partnerships applying causal inference and econometrics to live regulatory and compliance problems. The priority is that evidence survive operational and regulatory scrutiny: assumptions explicit, uncertainty quantified, and claims proportionate to what the data can support.
+
 ## Selected peer-reviewed work
 
 A few representative papers (venues and links as on the résumé; the résumé list is authoritative if anything differs):
 
-- Liu et al. (2024). *Evolutionary multi-objective optimisation for large-scale portfolio selection with both random and uncertain returns.* **IEEE Transactions on Evolutionary Computation** (ABS4).
-- Quinn, Gallagher & Kuosmanen (2023). *Lurking in the shadows: The impact of CO₂ emissions target setting on carbon pricing in the Kyoto agreement period.* [**Energy Economics**](https://www.sciencedirect.com/science/article/pii/S0140988322004674).
-- McKillop, Liu, Quinn & Peng (forthcoming). *Modelling and predicting credit union failures.* **International Journal of Forecasting**.
-- Bouri, Quinn, Sheenan & Tang (2024). *Investigating extreme linkage topology in the aerospace and defence industry.* **International Review of Financial Analysis**.
-- Liu, Papailias & Quinn (2021). *Direction-of-change forecasting in commodity futures markets.* **International Review of Financial Analysis**.
-- Gallagher & Quinn (2020). *Regulatory own goals: The unintended consequences of economic regulation in professional football.* **European Sport Management Quarterly**.
+- **Wang, Dai, Spence, Rafferty, Quinn & Huang** (2025). TDSRL: Time series dual self-supervised representation learning for anomaly detection from different perspectives. *IEEE Internet of Things Journal*.
+- **Liu et al.** (2024). Evolutionary multi-objective optimisation for large-scale portfolio selection with both random and uncertain returns. *IEEE Transactions on Evolutionary Computation* (ABS4).
+- **Quinn, Gallagher & Kuosmanen** (2023). [Lurking in the shadows: The impact of CO₂ emissions target setting on carbon pricing in the Kyoto agreement period.](https://www.sciencedirect.com/science/article/pii/S0140988322004674) *Energy Economics* (ABS3).
+- **McKillop, Liu, Quinn & Peng** (forthcoming). Modelling and predicting credit union failures. *International Journal of Forecasting* (ABS3).
+- **Bouri, Quinn, Sheenan & Tang** (2024). Investigating extreme linkage topology in the aerospace and defence industry. *International Review of Financial Analysis* (ABS3).
+- **Liu, Papailias & Quinn** (2021). Direction-of-change forecasting in commodity futures markets. *International Review of Financial Analysis* (ABS3).
+- **Gallagher & Quinn** (2020). Regulatory own goals: The unintended consequences of economic regulation in professional football. *European Sport Management Quarterly* (ABS3).
+
+Full list on the [résumé](https://quinfer.github.io/resume/).
 
 ## Working papers and preprints
 
-- Quinn (2023). *Explaining AI in finance: Past, present, prospects.* [arXiv:2306.02773](https://doi.org/10.48550/arXiv.2306.02773).
-- Quinn (2022). *Teaching open science analytics in the age of financial technology.* [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4019430).
-- Kearney, Quinn & Sketch (2021). *How deep is your learning? Machine learning stories from the enchanted predictability forest of UK firm value.*
-- Casu, Ayadi, Ben Naceur & Gallagher. *Herding to comply: Hierarchical systemic risk consequences of capital policy actions in Europe.* (IMF-related pipeline; see résumé for status.)
-- Gallagher & Kuosmanen. *Lurking in the shadows: The impact of emissions target setting on carbon pricing and environmental efficiency.* (Working paper series; journal version above.)
+Active pipeline (status and manuscript numbers as on CV):
+
+- **Birem, Abidi Perier, Quinn & Kearney** (under review). Transformer-based sentiment analysis for stock market crash risk. *European Journal of Operational Research* (EJOR-S-26-00902).
+- **Dai, Quinn, Kearney & Wang** (submitted). Amplifying market manipulation detection signals. *Economics Letters* (EL66561).
+- **Dai, Quinn, Kearney, Liu, Spence, Rafferty & Wang** (submitted). Detecting market manipulation with dual-branch self-supervised learning: A unified framework integrating frequency-informed anomaly synthesis and domain-specific features. *Information Processing and Management* (IPM-D-25-06138).
+- **Zhang, Quinn & Sheenan** (2025). Ownership dynamics, risk and regulation in Chinese banking: New evidence. Centre for Responsible Banking & Finance Working Paper Series, WP No. 25-017.
+- **Kearney, Quinn & Pramanick** (under review). Innovation signals and strategic exits: How technological readiness shapes outcomes in computational approaches to financial regulation. *Journal of Business Venturing*.
+- **Hannon, French, Quinn & O'Hagan** (submitted). Geospatial modeling of vehicle crime in Northern Ireland using computer vision to identify environmental factors. *Insurance: Mathematics and Economics* (IME-D-25-00419).
+- **Quinn** (2025). Hierarchical flag classification through economic domain knowledge: A vision transformer approach for cultural symbol recognition. MSc thesis and reproducible research codebase ([economic-flag-classification](https://github.com/quinfer/economic-flag-classification)); manuscript for journal submission in preparation.
+- **Quinn & Gallagher**. Great expectations: Managerial turnover and market expectation in association football.
+- **Quinn** (2023). Explaining AI in finance: Past, present, prospects. [arXiv:2306.02773](https://doi.org/10.48550/arXiv.2306.02773).
+- **Quinn** (2022). Teaching open science analytics in the age of financial technology. [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4019430).
 
 ## Funded research and knowledge transfer
 
-Recent and representative funded work (amounts and dates as recorded at award; detail on the résumé where updated):
+Active and representative funded work (amounts and dates as recorded at award; updated detail on the résumé):
 
-- **ESG fair-value analytics** — financial data science, NLP, econometrics (Research Associates / Innovate UK, £173k, 2022, 2 years).
-- **Anomaly detection** on large heterogeneous trading and communication data — ML and econometrics (global capital markets firm, £945k, 2021, 3 years).
-- **Financial tail risk analytics** — AI and machine learning for VaR and regulation (FundAxis / Innovate UK, £173k, 2022, 3 years).
-- **AI and advanced retail analytics** (Pearl AI / Innovate UK, £165k, from 2018, 3 years).
-- **PhD studentship** — AI innovation and financial services (NI Department for the Economy CAST award, £70k, 2021, 3 years).
-- **Natural gas demand forecasting** (Phoenix Natural Gas, £10k, 2014, 18 months).
-- **Northern Ireland credit unions landscape review** (DfE and DAERA, £32k, 2016, 2 years).
-- **Invest NI** short commissions — predictive retail analytics overview; AI and web analytics for price comparison; VaR modelling with financial machine learning (several £5k projects, 2018–2021).
-- **Stakeholder attitudes to fiscal policy change** (IoD, KPMG, CIBEP, £3.5k, 2016, 12 months).
+- **Three PhD scholarships** to support the Centre for Finance and Responsible Technology, including two collaborative doctoral partnerships with Pytillia and Napier AI (Department of the Economy NI, £360k, 2025–).
+- **Understanding and enhancing regulatory compliance** in the investment management industry using AI, with Funds Axis, Jesus Del Rincon Martinez, and Abhishek Pramanick (UKFin+ / UKRI, £100k, Nov 2024 – Nov 2025).
+- **Anomaly detection** on large heterogeneous trading and communication data with Citigroup Belfast (Momentum 1.0, 2022–2023).
+- **Tail risk analytics, stress testing and scenario analytics** with Funds Axis, Fearghal Kearney, and Colm Kelly (KTP / Innovate UK, £173k, 2021–2023).
+- **AI and advanced retail analytics** with PearlAI and Byron Graham (KTP / Innovate UK, £165k, 2018–2021).
+- **PhD studentship** on how AI innovation affects highly valued financial service provision (NI DofE CAST award, £70k, 2021–).
+- **Exploring the welfare cost of cultural displays** in Northern Ireland using multimodal generative AI, with Declan French (DofE CAST award NI, £70k, 2023–).
 
-## Ongoing projects (summary)
-
-Themes include **market anomaly detection** (deep and shallow learning, microstructure), **teaching data science in FinTech**, **credit easing and ETF activity**, **managerial turnover and feedback markets** (with Ronan Gallagher), **Basel III and Chinese banking** (with Lisa Sheenan and collaborators), **financial machine learning and UK asset pricing** (explainable AI, with Gareth Campbell, Ronan Gallagher, and PhD collaborators), and **Bayesian systemic risk and regulatory compliance** (with Barbara Casu, Rym Ayadi, Sami Ben Naceur, and Ronan Gallagher). For current outputs and venues, see the **[résumé](https://quinfer.github.io/resume/)**.
+Earlier commissioned work (Phoenix Natural Gas demand forecasting, Northern Ireland credit unions landscape review, Invest NI short commissions on predictive analytics and VaR modelling) and other grants listed on the [résumé](https://quinfer.github.io/resume/).
 
 ## Software
 
-The **fml** R package (financial machine learning) is listed on Zenodo and in the résumé software section: [record 6379925](https://zenodo.org/record/6379925).
+Two R packages listed on Zenodo and in the résumé software section:
+
+- **tsfe** — Time series econometrics ([doi:10.5281/zenodo.6376113](https://doi.org/10.5281/zenodo.6376113), 2022).
+- **fml** — Financial machine learning ([doi:10.5281/zenodo.6376114](https://doi.org/10.5281/zenodo.6376114), 2020).
