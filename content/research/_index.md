@@ -38,16 +38,16 @@ Full list on the [résumé](https://quinfer.github.io/resume/).
 
 ## Working papers and preprints
 
-Active pipeline (status and manuscript numbers as on CV):
+Active pipeline (status as known; see [résumé](https://quinfer.github.io/resume/) for latest):
 
-- **Birem, Abidi Perier, Quinn & Kearney** (under review). Transformer-based sentiment analysis for stock market crash risk. *European Journal of Operational Research* (EJOR-S-26-00902).
-- **Dai, Quinn, Kearney & Wang** (submitted). Amplifying market manipulation detection signals. *Economics Letters* (EL66561).
-- **Dai, Quinn, Kearney, Liu, Spence, Rafferty & Wang** (submitted). Detecting market manipulation with dual-branch self-supervised learning: A unified framework integrating frequency-informed anomaly synthesis and domain-specific features. *Information Processing and Management* (IPM-D-25-06138).
+- **Birem, Abidi Perier, Quinn & Kearney**. Transformer-based sentiment analysis for stock market crash risk. Working paper.
+- **Dai, Quinn, Kearney & Wang**. Amplifying market manipulation detection signals. Working paper.
+- **Dai, Quinn, Kearney, Liu, Spence, Rafferty & Wang**. Detecting market manipulation with dual-branch self-supervised learning: A unified framework integrating frequency-informed anomaly synthesis and domain-specific features. Working paper.
 - **Zhang, Quinn & Sheenan** (2025). Ownership dynamics, risk and regulation in Chinese banking: New evidence. Centre for Responsible Banking & Finance Working Paper Series, WP No. 25-017.
 - **Kearney, Quinn & Pramanick** (under review). Innovation signals and strategic exits: How technological readiness shapes outcomes in computational approaches to financial regulation. *Journal of Business Venturing*.
 - **Hannon, French, Quinn & O'Hagan** (submitted). Geospatial modeling of vehicle crime in Northern Ireland using computer vision to identify environmental factors. *Insurance: Mathematics and Economics* (IME-D-25-00419).
 - **Quinn** (2025). Hierarchical flag classification through economic domain knowledge: A vision transformer approach for cultural symbol recognition. MSc thesis and reproducible research codebase ([economic-flag-classification](https://github.com/quinfer/economic-flag-classification)); manuscript for journal submission in preparation.
-- **Quinn & Gallagher**. Great expectations: Managerial turnover and market expectation in association football.
+- **Quinn & Gallagher**. Great expectations: Managerial turnover and market expectation in association football. Working paper.
 - **Quinn** (2023). Explaining AI in finance: Past, present, prospects. [arXiv:2306.02773](https://doi.org/10.48550/arXiv.2306.02773).
 - **Quinn** (2022). Teaching open science analytics in the age of financial technology. [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4019430).
 
