@@ -8,7 +8,7 @@ header:
   image: ""
 ---
 
-I prepare students to reason carefully about finance and technology — teaching them to make assumptions explicit, quantify uncertainty, and be honest about what evidence does and does not support. My goal is to develop analysts who are technically capable, intellectually honest, and able to produce work that is transparent and reproducible. These qualities — rigour, humility, and critical thinking — equip students for roles where decisions carry real consequences.
+I prepare students to reason carefully about finance and technology, teaching them to make assumptions explicit, quantify uncertainty, and be honest about what evidence does and does not support. My goal is to develop analysts who are technically capable, intellectually honest, and able to produce work that is transparent and reproducible. These qualities (rigour, humility, and critical thinking) equip students for roles where decisions carry real consequences.
 
 ## Current teaching (Ulster University)
 
@@ -24,9 +24,9 @@ I prepare students to reason carefully about finance and technology — teaching
 
 **Programme site:** [quinfer.github.io/minimba](https://quinfer.github.io/minimba/)
 
-**Day 1:** The economics of FinTech — cost puzzle, platform business models, economics of prediction.  
-**Day 2:** Responsible data science — validation discipline, overfitting, backtest reliability, walk-forward testing, survivorship bias. Includes LLM-as-critic exercise.  
-**Day 3:** AI in finance — real case study (UKFin+ project) on AI for regulatory compliance; lexical drift, the confidence trap, graduated automation.
+**Day 1:** The economics of FinTech: cost puzzle, platform business models, economics of prediction.  
+**Day 2:** Responsible data science: validation discipline, overfitting, backtest reliability, walk-forward testing, survivorship bias. Includes LLM-as-critic exercise.  
+**Day 3:** AI in finance: real case study (UKFin+ project) on AI for regulatory compliance; lexical drift, the confidence trap, graduated automation.
 
 All slides, labs, and Colab notebooks are served from the programme site.
 
@@ -40,7 +40,7 @@ At QUB I taught postgraduate courses in **algorithmic trading and investment** (
 
 Two pedagogical projects I led while at Queen's:
 
-- **[Q-RaP (Queen's Management School Remote analytics Platform)](qrap/)**: High-performance cloud computing stack (RStudio Team, Azure) for open-science analytics. Launched 2021, served 200+ students concurrently on PGT modules. Shut down after my move to Ulster, but the model and student feedback are documented on the archived page.
+- **Q-RaP (Queen's Management School Remote analytics Platform)** was a high-performance cloud stack (RStudio Team, Azure) for open-science analytics, launched in 2021 for PGT teaching; it was retired when I moved to Ulster and is no longer documented as a standalone page here.
 
 - **[Queen's Student Managed Fund (QSMF)](smf/)**: Real-money investment portfolio managed by students. Established 2014 (virtual), transitioned to real money 2015 with alumni support. Grounded in experiential learning, professionalism, and corporate engagement. Archive includes annual reports and student testimonials.
 
@@ -50,7 +50,7 @@ Both projects demonstrate how to embed computation and professional practice as 
 
 ## Teaching philosophy
 
-Good teaching in finance and data science requires two things that pull in opposite directions: **technical capability** (students must be able to code, wrangle data, fit models, and interpret output) and **epistemic humility** (they must know when their models are trustworthy and when they are not). The first is about tools; the second is about judgement. Both are teachable, but only if we are willing to show students real data, real failure modes, and real limits — not sanitised textbook examples where everything works.
+Good teaching in finance and data science requires two things that pull in opposite directions: **technical capability** (students must be able to code, wrangle data, fit models, and interpret output) and **epistemic humility** (they must know when their models are trustworthy and when they are not). The first is about tools; the second is about judgement. Both are teachable, but only if we are willing to show students real data, real failure modes, and real limits, not sanitised textbook examples where everything works.
 
 I design courses where students confront messy data, overfitting, and model misspecification early and often, and where the assessments reward transparency (showing your work, quantifying uncertainty, documenting what you tried and why it failed) rather than rewarding only "correct" answers. The goal is to produce analysts who can be trusted, not just analysts who can fit models.
 

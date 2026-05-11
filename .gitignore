@@ -4,3 +4,6 @@ node_modules/
 .Rhistory
 .RData
 .Ruserdata
+
+/.quarto/
+**/*.quarto_ipynb

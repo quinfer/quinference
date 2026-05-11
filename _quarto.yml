@@ -1,0 +1,15 @@
+# Quarto drives computational posts; Hugo builds the site. See https://quarto.org/docs/projects/quarto-projects.html#hugo-sites
+project:
+  type: hugo
+  render:
+    - "content/post/**/*.qmd"
+
+format:
+  hugo-md: default
+
+execute:
+  # Use committed _freeze on Netlify (no R on build image). Re-run `quarto render` locally after editing R/Python chunks.
+  freeze: true
+  echo: false
+  warning: false
+  message: false

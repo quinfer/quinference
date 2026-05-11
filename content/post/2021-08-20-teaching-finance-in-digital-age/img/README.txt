@@ -1,0 +1,1 @@
+These PNGs are neutral placeholders so Quarto can run when the original RStudio / Azure screenshots are not in the repo. Replace Team.png, rstudiowb.png, and rstudiowb_kb.png with your real figures (same filenames) before publishing.

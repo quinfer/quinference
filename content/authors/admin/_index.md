@@ -21,12 +21,6 @@ education:
   - course: MSc Artificial Intelligence (Distinction)
     institution: Queen's University Belfast
     year: 2025
-  - course: Advanced Data Science Professional
-    institution: Royal Statistical Society
-    year: 2023
-  - course: Chartered Statistician
-    institution: Royal Statistical Society
-    year: 2019
   - course: PhD in Finance
     institution: Queen's University Belfast
     year: 2012
@@ -36,6 +30,15 @@ education:
   - course: BSc Accounting and Finance
     institution: Queen's University Belfast
     year: 1995
+
+professional_credentials:
+  courses:
+  - course: Advanced Data Science Professional
+    institution: Royal Statistical Society
+    year: 2023
+  - course: Chartered Statistician
+    institution: Royal Statistical Society
+    year: 2019
 
 social:
 - icon: envelope

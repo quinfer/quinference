@@ -101,11 +101,14 @@
       </div>
       {{ end }}
 
-      {{ with $person.education }}
+      {{ $edu := $person.education }}
+      {{ $prof := $person.professional_credentials }}
+      {{ if or (and $edu $edu.courses) (and $prof $prof.courses) }}
       <div class="col-md-7">
+        {{ if and $edu $edu.courses }}
         <div class="section-subheading">{{ i18n "education" | markdownify }}</div>
-        <ul class="ul-edu fa-ul mb-0">
-          {{ range .courses }}
+        <ul class="ul-edu fa-ul{{ if and $prof $prof.courses }} mb-3{{ else }} mb-0{{ end }}">
+          {{ range $edu.courses }}
           <li>
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
@@ -115,6 +118,21 @@
           </li>
           {{ end }}
         </ul>
+        {{ end }}
+        {{ if and $prof $prof.courses }}
+        <div class="section-subheading{{ if and $edu $edu.courses }} mt-3{{ end }}">{{ i18n "professional_credentials" | markdownify }}</div>
+        <ul class="ul-edu fa-ul mb-0">
+          {{ range $prof.courses }}
+          <li>
+            <i class="fa-li fas fa-certificate"></i>
+            <div class="description">
+              <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
+              <p class="institution">{{ .institution }}</p>
+            </div>
+          </li>
+          {{ end }}
+        </ul>
+        {{ end }}
       </div>
       {{ end }}
 

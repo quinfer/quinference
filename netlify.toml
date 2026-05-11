@@ -1,5 +1,6 @@
 [build]
-command = 'hugo'
+# Render .qmd → Hugo markdown, then Hugo (see _quarto.yml, https://quarto.org/docs/output-formats/hugo.html)
+command = "curl -fsSL https://github.com/quarto-dev/quarto-cli/releases/download/v1.8.24/quarto-1.8.24-linux-amd64.tar.gz -o /tmp/quarto.tgz && tar -xzf /tmp/quarto.tgz -C /tmp && export PATH=/tmp/quarto-1.8.24/bin:$PATH && quarto render && hugo"
 publish = 'public'
 
 [functions]

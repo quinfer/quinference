@@ -1,0 +1,4 @@
+# Site overrides (merged with theme i18n)
+
+- id: professional_credentials
+  translation: "Professional registration"
