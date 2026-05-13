@@ -38,11 +38,11 @@ At QUB I taught postgraduate courses in **algorithmic trading and investment** (
 
 ### Teaching innovations archived from QUB
 
-Two pedagogical projects I led while at Queen's:
+Two pedagogical projects I helped kick-start while at Queen's:
 
 - **Q-RaP (Queen's Management School Remote analytics Platform)** was a high-performance cloud stack (RStudio Team, Azure) for open-science analytics, launched in 2021 for PGT teaching; it was retired when I moved to Ulster and is no longer documented as a standalone page here.
 
-- **[Queen's Student Managed Fund (QSMF)](smf/)**: Real-money investment portfolio managed by students. Established 2014 (virtual), transitioned to real money 2015 with alumni support. Grounded in experiential learning, professionalism, and corporate engagement. Archive includes annual reports and student testimonials.
+- **[Queen's Student Managed Fund (QSMF)](smf/)**: Real-money investment portfolio managed by students. Established 2014 (virtual), transitioned to real money 2015 with alumni support. Leadership shared with Alan Hanna and Aine Gallagher, who took the fund forward in later years as I stepped away to develop FAIR (Finance and AI Research lab). Grounded in experiential learning, professionalism, and corporate engagement. Archive includes annual reports and student testimonials.
 
 Both projects demonstrate how to embed computation and professional practice as central tenets in the curriculum, allowing students to do something interesting with data (or capital) in the first ten minutes of the first class.
 
