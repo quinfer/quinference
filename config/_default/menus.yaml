@@ -10,9 +10,6 @@ main:
   - name: Teaching
     url: 'teaching'
     weight: 30
-  - name: QSMF
-    url: 'smf'
-    weight: 50
   - name: Posts
     url: 'post'
     weight: 60

@@ -50,7 +50,7 @@ Two pedagogical projects I helped kick-start while at Queen's:
 
 - **Q-RaP (Queen's Management School Remote analytics Platform)** was a high-performance cloud stack (RStudio Team on Azure) for open-science analytics, launched in 2021 for postgraduate teaching. It was retired when I moved to Ulster and is no longer documented as a standalone page here.
 
-- **[Queen's Student Managed Fund (QSMF)](smf/)** is a real-money investment portfolio managed by students. Established in 2014 (virtual) and transitioned to real money in 2015 with alumni support. Leadership was shared with Alan Hanna and Aine Gallagher, who took the fund forward in later years as I stepped away to develop the FAIR (Finance and AI Research) lab. Grounded in experiential learning, professionalism, and corporate engagement. The archive includes annual reports and student testimonials.
+- **[Queen's Student Managed Fund (QSMF)](smf/)** is a real-money investment portfolio managed by students. Established in 2014 (virtual) and transitioned to real money in 2015 with alumni support. Leadership was shared with Alan Hanna and Aine Gallagher, who took the fund forward in later years as I stepped away to develop the [Finance and AI Research (FAIR) lab](https://www.qub.ac.uk/schools/queens-business-school/research/finance/) at Queen's. Grounded in experiential learning, professionalism, and corporate engagement. The archive includes annual reports and student testimonials.
 
 ## Open educational resources
 
