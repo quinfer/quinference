@@ -58,3 +58,5 @@ social:
 I help students prepare for a future shaped by data and technology, teaching them to experiment, to read evidence carefully, and to make decisions they can stand over. I want them to finish their courses able to do the work, but also curious, honest about what they don't yet know, and willing to ask hard questions.
 
 My own research sits at the meeting point of finance, statistics, and trustworthy machine learning, looking at markets, risk, and how algorithms behave when they meet regulation. I try to do it the way I teach it: assumptions made explicit, uncertainty taken seriously, and claims kept proportionate to what the evidence will bear.
+
+Before joining Ulster I developed the [Finance and AI Research (FAIR) lab](https://www.qub.ac.uk/schools/queens-business-school/research/finance/) at Queen's University Belfast.

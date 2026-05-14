@@ -12,15 +12,20 @@ This page is a **short overview**. For a dated, complete record (peer-reviewed p
 
 My work sits where **finance, statistics, and trustworthy machine learning** meet: markets and institutions, risk, and evidence that can stand up in operational and regulatory settings. I collaborate across disciplines and with industry, and I try to keep assumptions explicit and claims proportionate to the data.
 
+## Research labs
+
+- **Centre for Finance and Responsible Technology (CFRT)**, Ulster University Business School. Current research home, where I serve as Director.
+- **[Finance and AI Research (FAIR) lab](https://www.qub.ac.uk/schools/queens-business-school/research/finance/)**, Queen's University Belfast. Developed before my move to Ulster.
+
 ## Methodological themes
 
 Three strands recur across my research programme:
 
-1. **Trustworthy machine learning for market integrity and risk** — representation learning for detecting market manipulation (self-supervised frameworks, signal amplification for rare events, transformer-based sentiment models for crash-risk prediction). The methodological commitment is that model performance and model trustworthiness are separable properties, and both must be evidenced before deployment in operational or regulatory settings.
+1. **Trustworthy machine learning for market integrity and risk**: representation learning for detecting market manipulation (self-supervised frameworks, signal amplification for rare events, transformer-based sentiment models for crash-risk prediction). The methodological commitment is that model performance and model trustworthiness are separable properties, and both must be evidenced before deployment in operational or regulatory settings.
 
-2. **Computer vision for socio-economic measurement** — using vision models on real-world imagery to produce auditable indicators (geospatial vehicle-crime modeling with street-level features; hierarchical flag classification for cultural-symbol monitoring). These pipelines are treated as measurement instruments and evaluated on measurement-science grounds, not on benchmark accuracy alone.
+2. **Computer vision for socio-economic measurement**: using vision models on real-world imagery to produce auditable indicators (geospatial vehicle-crime modeling with street-level features; hierarchical flag classification for cultural-symbol monitoring). These pipelines are treated as measurement instruments and evaluated on measurement-science grounds, not on benchmark accuracy alone.
 
-3. **Causal and statistical evidence for governance and regulation** — innovation signals and strategic exits in computational approaches to financial regulation; ownership dynamics, risk, and regulation in Chinese banking; collaborative doctoral partnerships applying causal inference and econometrics to live regulatory and compliance problems. The priority is that evidence survive operational and regulatory scrutiny: assumptions explicit, uncertainty quantified, and claims proportionate to what the data can support.
+3. **Causal and statistical evidence for governance and regulation**: innovation signals and strategic exits in computational approaches to financial regulation; ownership dynamics, risk, and regulation in Chinese banking; collaborative doctoral partnerships applying causal inference and econometrics to live regulatory and compliance problems. The priority is that evidence survive operational and regulatory scrutiny: assumptions explicit, uncertainty quantified, and claims proportionate to what the data can support.
 
 ## Selected peer-reviewed work
 
