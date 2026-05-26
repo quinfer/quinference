@@ -18,7 +18,7 @@ interests:
 
 education:
   courses:
-  - course: MSc Artificial Intelligence (Distinction)
+  - course: MSc Artificial Intelligence
     institution: Queen's University Belfast
     year: 2025
   - course: PhD in Finance
