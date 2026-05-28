@@ -23,7 +23,7 @@ date_format = "Jan 2006"
   company = "Ulster University Business School"
   company_url = "https://www.ulster.ac.uk/faculties/ulster-university-business-school"
   location = "Belfast"
-  date_start = "2025-06-01"
+  date_start = "2024-06-01"
   date_end = ""
   description = "Director, Centre for Finance and Responsible Technology."
 
@@ -33,7 +33,7 @@ date_format = "Jan 2006"
   company_url = "https://pure.qub.ac.uk/en/persons/barry-quinn"
   location = "Belfast"
   date_start = "2020-09-01"
-  date_end = "2025-05-31"
+  date_end = "2024-05-31"
   description = ""
 
 [[experience]]
