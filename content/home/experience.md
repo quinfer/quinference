@@ -19,13 +19,22 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Director, Centre for Finance and Responsible Technology"
+  company = "Ulster University Business School"
+  company_url = "https://www.ulster.ac.uk/faculties/ulster-university-business-school"
+  location = "Belfast"
+  date_start = "2025-09-01"
+  date_end = ""
+  description = ""
+
+[[experience]]
   title = "Professor of Finance & Financial Technology"
   company = "Ulster University Business School"
   company_url = "https://www.ulster.ac.uk/faculties/ulster-university-business-school"
   location = "Belfast"
-  date_start = "2024-06-01"
+  date_start = "2025-06-01"
   date_end = ""
-  description = "Director, Centre for Finance and Responsible Technology."
+  description = ""
 
 [[experience]]
   title = "Senior Lecturer in Finance & Financial Technology"
